@@ -91,6 +91,10 @@ By making the site fully responsive, the site aims to be easily accessible no ma
 
 ### **Scope**
 
+The main features that will be implemented into the website will be included on three separate pages. The design of the website should look professional and trustworthy at the same time simple and eye-catching. In help to create this design will be carefully selected colour palette and fonts.
+
+The site will have an "About section" where users can learn some more information about the company. That will help build more trust in users. We will provide contact details, making it easy for users to get in touch. We will showcase previous work through photos, testimonials, and videos. This will help users gauge the handyman`s skill and quality of work. Users can find out if the handyman serves their geographical area, ensuring that they are accessible to potential customers. The website will show pricing information. This transparency can help users budget for their home improvement projects.
+
 ### **Structure**
 
 ### **Skeleton**
