@@ -97,6 +97,14 @@ The site will have an "About section" where users can learn some more informatio
 
 ### **Structure**
 
+The structure of the website is to have three separate pages. It is designed to be mobile-first design. Every page will have a header and footer.
+
+The home page will be made of five sections, providing essential information. The sections on the page will be Header, why choose our company for your home repair?  Our services, Testimonials, and Footer. The header will consist of the company logo and a navigation section which will be text on the desktop and then be a list with a hamburger icon for smaller devices. In the "Why choose our company for your home repair?" section will be included relevant information about the company, photos of the handyman team, and icons that will show the main reasons to choose the company. In the "Our services" section will be named services, provided by the handymen, with icons that will make it easy to identify the service. The icons will be clickable and will send users to the Service page. The testimonial section will provide reviews from customers, who already used the services. This will help potential customers more easily decide to get in touch with the company. The footer will include the company logo, contact information with icons for easy identification of the information, quick links to the pages on the website, and social media links, so users can follow company pages on the provided platforms.
+
+The service page will be made up of five sections- header with logo and navigation bar; services section where a will be added photo to relevant service with specific information about what the service includes price section with information about the prices; gallery section where users can see previous work done by handymen; and footer section with contact information and quick links.
+
+The contact page will be made up of three sections. There will be a header section with a navigation bar and logo; contact information which will include phone number, email address, office opening hours, get in touch form that can be filled and submitted by users, map- so that can users see where the company office is based; and footer with contact information and quick links.
+
 ### **Skeleton**
 
 ### **Surface**
