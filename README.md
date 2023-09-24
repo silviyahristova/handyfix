@@ -107,6 +107,31 @@ The contact page will be made up of three sections. There will be a header secti
 
 ### **Skeleton**
 
+To create the wireframes, the design tool Figma. There were nine frames created- for each page and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
+
+<details>
+
+<summary>Desktop (1440 x 1024)</summary>
+
+![desktop1](assets/images/wireframes/desktop1.png)
+![desktop2](assets/images/wireframes/desktop2.png)
+![desktop3](assets/images/wireframes/desktop3.png)
+</details>
+
+<details><summary>Tablet (834 x 1194)</summary>
+
+![tablet1](assets/images/wireframes/tablet1.png)
+![tablet2](assets/images/wireframes/tablet2.png)
+![tablet3](assets/images/wireframes/tablet3.png)
+</details>
+
+<details><summary>Mobile(390 x 844)</summary>
+
+![mobile1](assets/images/wireframes/mobile1.png)
+![mobile2](assets/images/wireframes/mobile2.png)
+![mobile3](assets/images/wireframes/mobile3.png)
+</details>
+
 ### **Surface**
 
 ## Features
