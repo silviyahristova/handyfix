@@ -11,6 +11,8 @@
   - [About](#about)
   - [User Experiences](#user-experiences)
     - [**User Stories**](#user-stories)
+      - [**First-time visitor goals:**](#first-time-visitor-goals)
+      - [**Business Goals:**](#business-goals)
     - [**Strategy**](#strategy)
     - [**Scope**](#scope)
     - [**Structure**](#structure)
@@ -37,7 +39,7 @@ The user will be provided with the essential information and pricing about the s
 
 ### **User Stories**
 
-**First-time visitor goals:**
+#### **First-time visitor goals:**
 
 - As a first-time visitor, I want to easily understand the main purpose of the site and learn more about the company.
 
@@ -67,7 +69,7 @@ The user will be provided with the essential information and pricing about the s
 
 - As a first-time visitor I want to see where the company is located.
 
-**Business Goals:**
+#### **Business Goals:**
 
 - As an owner, I want to generate new business by getting users to contact the company.
 
@@ -80,6 +82,12 @@ The user will be provided with the essential information and pricing about the s
 - As owner, I want the site to be responsive so users on any platform can successfully navigate the site.
 
 ### **Strategy**
+
+This project is to design and create a static website that is done mainly through HTML and CSS.
+
+The main goal of the website is to get potential customers to use one or more of the provided services. The site will help users learn about the range of services offered by the handyman, including repairs, maintenance, and installations. This helps users understand if the handyman can address their specific needs. The website.
+
+By making the site fully responsive, the site aims to be easily accessible no matter which platform the user is viewing the site on.
 
 ### **Scope**
 
