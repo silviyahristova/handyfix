@@ -10,6 +10,8 @@ body{
     color: #262121;
     background-color: #f7d4a6;;
     font-size: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 /*Styling the logo and navigation links*/
@@ -156,4 +158,8 @@ h2~ul {
     margin-top: 1em;
 }
 
-
+.image-team {
+    width: 20%;
+    border-radius: 20%;
+    padding: 15px;
+}
