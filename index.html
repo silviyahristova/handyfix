@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest" crossorigin="use-credentials">
 
     <!-- style sheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -112,56 +112,60 @@
         </div>
 
         <h2 class="heading">Meet our expert team</h2>
-        <!--Add images of the team -->
+        <!--images of the team -->
 
-        <!--Photo from https://stock.adobe.com/uk/Library/urn:aaid:sc:EU:c0974144-26e2-4b4c-aac4-7892055b6ed7?asset_id=79468241-->
-        <img src="assets/images/handyman1.jpeg" alt="Handyman photo" class="image-team">
-        
-        <!--Photo from https://stock.adobe.com/uk/Library/urn:aaid:sc:EU:c0974144-26e2-4b4c-aac4-7892055b6ed7?asset_id=225352037-->
-        <img src="assets/images/handyman2.jpeg" alt="Handyman second photo" class="image-team">
-        
-        <!--Photo from https://unsplash.com/photos/2VI4kyU7cQ0-->
-        <img src="assets/images/handyman3.jpg" alt="Handyman third photo" class="image-team">
-        
-        <!--Photo from https://www.pexels.com/photo/smiling-woman-in-yellow-hardhat-8487764/-->
-        <img src="assets/images/handywoman.jpg" alt="Handywoman photo" class="image-team">
-
+        <div id="team-div">
+            <!--Photo from https://stock.adobe.com/uk/Library/urn:aaid:sc:EU:c0974144-26e2-4b4c-aac4-7892055b6ed7?asset_id=79468241-->
+            <div class="div-image"><img src="assets/images/handyman1.jpeg" alt="Handyman photo" class="image-team"></div>
+            
+            <!--Photo from https://stock.adobe.com/uk/Library/urn:aaid:sc:EU:c0974144-26e2-4b4c-aac4-7892055b6ed7?asset_id=225352037-->
+            <div class="div-image"><img src="assets/images/handyman2.jpeg" alt="Handyman second photo" class="image-team"></div>
+            
+            <!--Photo from https://unsplash.com/photos/2VI4kyU7cQ0-->
+            <div class="div-image"><img src="assets/images/handyman7.jpg" alt="Handyman third photo" class="image-team"></div>
+            
+            <!--Photo from https://www.pexels.com/photo/smiling-woman-in-yellow-hardhat-8487764/-->
+            <div class="div-image"><img src="assets/images/handyman9.jpg" alt="Handywoman photo" class="image-team"></div>
+        </div>
     </section>
 
     <!--Our services section-->
     <section id="ourservices">
-        <h2>Our services</h2>
+        <h2 class="heading">Our services</h2>
         <!--add here relative links to each service in the service page-->
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service1"><i class="fa-solid fa-plug"></i></a>
-                <p>Electrical service</p>
-        </div>
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service2"><i class="fa-solid fa-door-open"></i></a>
-                <p> Doors </p>
-        </div>
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service3"><i class="fa-solid fa-door-open"></i></a>
-                <p>Kitchen and Bathroom Renovations</p>
-        </div>
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service4"><i class="fa-solid fa-paint-roller"></i></a>
-                <p>Painting and decorating service</p>
-        </div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service5"><i class="fa-solid fa-faucet"></i></a>
-            <p>Plumbing service</p>
-        </div>
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service6"><i class="fa-solid fa-wifi"></i></a>
-                <p>Smart Home</p>
-        </div>
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service7"><i class="fa-solid fa-couch"></i></a>
-                <p>Assembly service</p>
-        </div>
-        <div>
-            <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service8"><i class="fa-solid fa-city"></i></a>
-                <p>Windows and blinds</p>
+        <div id="icons">
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service1"><i class="fa-solid fa-plug fa-3x"></i></a>
+                    <p class="text-under">Electrical service</p>
+            </div>
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service2"><i class="fa-solid fa-door-open fa-3x"></i></a>
+                    <p class="text-under"> Doors </p>
+            </div>
+            <div class="icontext button"> 
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service3"><i class="fa-solid fa-door-open fa-3x"></i></a>
+                    <p class="text-under">Kitchen and Bathroom Renovations</p>
+            </div>
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service4"><i class="fa-solid fa-paint-roller fa-3x"></i></a>
+                    <p class="text-under">Painting and decorating service</p>
+            </div>
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service5"><i class="fa-solid fa-faucet fa-3x"></i></a>
+                <p class="text-under">Plumbing service</p>
+            </div>
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service6"><i class="fa-solid fa-wifi fa-3x"></i></a>
+                    <p class="text-under">Smart Home</p>
+            </div>
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service7"><i class="fa-solid fa-couch fa-3x"></i></a>
+                    <p class="text-under">Assembly service</p>
+            </div>
+            <div class="icontext button">
+                <a href="https://8000-silviyahristova-handyfix-vmjd8ogqk7.us2.codeanyapp.com/service.html#service8"><i class="fa-solid fa-city fa-3x"></i></a>
+                    <p class="text-under">Windows and blinds</p>
+            </div>
         </div>
     </section>
 
@@ -171,7 +175,7 @@
     <section>
         <!-- Main Container for Clients Review -->
         <div>
-            <h2>Testimonials</h2>
+            <h2 class="heading">Testimonials</h2>
 
             <!-- Clients Review Section -->
             <div>
@@ -278,8 +282,8 @@
         </div>
     </footer>
 
-    <!--fontawesome script for the newest version-->
-    <script src="https://kit.fontawesome.com/65fc689ce4.js" crossorigin="anonymous"></script>
+    <!--fontawesome script for newest version-->
+    <script src="https://kit.fontawesome.com/65fc689ce4.js" crossorigin="use-credentials"></script>
 
 </body>
 </html>
