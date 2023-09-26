@@ -10,7 +10,6 @@ body{
     color: #262121;
     background-color: #f7d4a6;;
     font-size: 100%;
-    height: 100%;
     overflow-x: hidden;
 }
 
@@ -141,7 +140,7 @@ h2~ul {
 
 #icons{
     width:100%;
-    padding: 30px 90px;
+    padding: 30px 80px;
 }
 
 .icontext{
@@ -157,9 +156,21 @@ h2~ul {
     font-weight: 500;
     margin-top: 1em;
 }
-
+ /*Team images style*/
 .image-team {
-    width: 20%;
+    width: 25%;
+    height: 330px;
     border-radius: 20%;
-    padding: 15px;
+    padding: 30px;
+}
+
+#team-div{
+    width: 50%;
+    margin:auto;
+    padding: 10px; 
+}
+.div-image{
+    
+    width: 100%;
+    float: left;
 }
