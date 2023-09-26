@@ -24,11 +24,13 @@ body{
     border-radius: 50px;
 }
 
-#menu a{
-    padding-right: 25px;
-}
-
 /*navigation links*/
+
+header {
+    background-color: #B6DCE3;
+    position: relative;  
+    z-index: 50;       
+}
 #menu{
     font-size: 125%;
     font-weight: 500;
