@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -11,4 +9,42 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #262121;
     background-color: #f7d4a6;
+    font-size: 100%;
+}
+
+/*Styling the logo and navigation links*/
+#logo{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    width:90px;
+    border-radius: 50px;
+}
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#logo, #menu {
+    line-height: 110px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #262121;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #262121;
+}
+
+.active {
+    border-bottom: 1px solid #262121;
 }
