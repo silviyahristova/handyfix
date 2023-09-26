@@ -116,4 +116,44 @@ h2~ul {
     padding-top: 40px;
 }
 
-/**/
+/*About section*/
+
+.heading{
+    font-family: 'Roboto',sans-serif; ;
+    font-size: 2vw;
+    color: #262121;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px 0;
+}
+
+.text{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    color: #262121;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: 15px 0;
+}
+
+#icons{
+    width:100%;
+    padding: 30px 90px;
+}
+
+.icontext{
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin: auto 80px;
+}
+
+.text-under{
+    font-family: 'Lato',sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+
