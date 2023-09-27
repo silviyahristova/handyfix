@@ -140,14 +140,14 @@ h2~ul {
 
 #icons{
     width:100%;
-    padding: 30px 80px;
+    margin: 0px 200px;
 }
 
 .icontext{
     text-align: center;
     float: left;
     padding: 20px;
-    margin: auto 80px;
+    margin: auto 30px;
 }
 
 .text-under{
@@ -157,20 +157,58 @@ h2~ul {
     margin-top: 1em;
 }
  /*Team images style*/
-.image-team {
-    width: 25%;
-    height: 330px;
-    border-radius: 20%;
-    padding: 30px;
+
+.heading-meet {
+    margin-top: 150px;
 }
 
-#team-div{
-    width: 50%;
-    margin:auto;
-    padding: 10px; 
+.image-team {
+    width: 75%;
+    height: 330px;
+    border-radius: 50%;
+    padding: 30px;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
 }
-.div-image{
-    
+
+.container-image{
+    position: relative;
+    width:100%;
+}
+
+.middle{
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container-image:hover .image-team{
+    opacity: 0.3;
+}
+
+.container-image:hover .middle{
+    opacity: 1;
+}
+
+.text-over-image{
+    background-color: #beb5d2;
+    color:#262121;
+    font-size: 16px;
+    padding:2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.container-div-image{
+    display: flex;
     width: 100%;
-    float: left;
+    margin: 0 15px;
 }
