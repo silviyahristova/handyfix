@@ -216,3 +216,27 @@ h2~ul {
     margin: 0 15px;
     padding-left: 30px;
 }
+
+/*our service icons buttons*/
+.div-color{
+    background-color: #beb5d2;
+}
+#icons2{
+    width: 100%;
+}
+
+.button-icons{
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: center;
+    background-color: #f7d4a6;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.button-icons:hover {
+    background-color: #f2800a;
+    transition: 0.7s;
+    cursor: pointer;
+}
