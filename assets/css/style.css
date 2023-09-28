@@ -438,3 +438,24 @@ footer a {
 .footer-icon i{
     margin: 8px;
 }
+
+/*service page*/
+
+.container-service {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 62px;
+}
+
+/*centered text*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tools {
+    width: 100%;
+}
