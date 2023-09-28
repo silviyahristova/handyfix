@@ -8,7 +8,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #262121;
-    background-color:#f2800a;;
+    background-color: #f7b36c;
     font-size: 100%;
     overflow-x: hidden;
 }
@@ -164,6 +164,7 @@ h2~ul {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
  /*Team images style*/
 /*Code is contributed from w3school image hover fade in a box-amended for my use*/ 
 .heading-meet {
@@ -171,8 +172,8 @@ h2~ul {
 }
 
 .image-team {
-    width: 70%;
-    height: 330px;
+    width: 75%;
+    height: auto;
     border: 2px solid #262121;
     border-radius: 50%;
     padding: 30px;
@@ -205,9 +206,9 @@ h2~ul {
     opacity: 1;
 }
 
-.text-team{
+/*.text-team{
     padding-right: 40px;
-}
+}*/
 
 .text-over-image{
     background-color: #beb5d2;
@@ -237,7 +238,7 @@ h2~ul {
     font-size: 1em;
     font-weight: 700;
     text-align: center;
-    background-color: #f7d4a6;
+    background-color: #beb5d2;
     padding: 50px;
     border: 1px solid #262121;
     border-radius: 10px;
@@ -251,7 +252,7 @@ h2~ul {
 
 .link-icons:hover {
     color: #262121;
-    background-color: #beb5d2;
+    background-color: #f2800a;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -285,6 +286,7 @@ h2~ul {
 }
 
 .clientImage {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -343,6 +345,20 @@ article p {
 
 /*footer*/
 
+img {
+    height: auto;
+    width: 100%;
+}
+
+hr {
+    margin: auto;
+    width: 15%;
+    border: 1px solid #262121;
+}
+
+footer{
+    border-top: 1px solid #262121;
+}
 .logo-link{
     float: left;
     width: 25%;
