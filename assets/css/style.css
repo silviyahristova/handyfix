@@ -19,16 +19,20 @@ body{
 #logo{
     float:left;
     margin-top:5px;
-    margin-left:10px;
+    margin-left:25px;
     margin-bottom: 5px;
     width:70px;
     border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #262121;
+    font-weight: 600;
 }
 
 /*navigation links*/
 
 header {
-    background-color: #B6DCE3;
     position: relative;  
     z-index: 50;       
 }
@@ -46,10 +50,6 @@ header {
     margin-right: 60px;
 }
 
-#logo, #menu {
-    line-height: 50px;
-}
-
 #menu a {
     text-decoration: none;
     color: #262121;
@@ -59,7 +59,7 @@ header {
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
-    cursor: hand;
+    cursor:grab;
 }
 
 /*Styling hero section*/
@@ -151,11 +151,18 @@ h2~ul {
 }
 
 .text-under{
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+.text-next{
     font-family: 'Lato',sans-serif;
     font-size: 1vw;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 1em;
 }
  /*Team images style*/
 /*Code is contributed from w3school image hover fade in a box-amended for my use*/ 
@@ -188,7 +195,6 @@ h2~ul {
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%, -50%);
 }
 
 .container-image:hover .image-team{
@@ -220,10 +226,11 @@ h2~ul {
 }
 
 /*our service icons links*/
+
 .heading-service{
     margin-top: 50px;
+    margin-bottom: 400px;
 }
-    
 
 .link-icons{
     font-family: 'Lato', sans-serif;
@@ -243,22 +250,27 @@ h2~ul {
 }
 
 .link-icons:hover {
-    background-color: #f2800a;
-    transition: 0.7s;
+    color: #262121;
+    background-color: #beb5d2;
+    transition: 0.5s;
     cursor: pointer;
+}
+
+.link-color:visited{
+    color: #262121;
+}
+
+.link-color:link{
+    color: #262121;
 }
 
 .link-icons .span{
     margin-left: 10px;
 }
-.link-color{
-    background-color: #262121;
-}
 
 /*-testimonial section*/
 .heading-testimonial{
-    margin-top: 400px;
-    background-color: #cbc0c0;
+    background-color: #f7b36c;
 }
 
 .main-container{
@@ -301,14 +313,7 @@ h2~ul {
     border-radius: 10px;
     background-color: #f7d4a6;
     border: 1px solid #10102a;
-    transition: all .2s linear;
-}
-
-.reviewItem:hover {
-    border-color: #262121;
-    transform: scale(1.01);
-    background-color: #f2800a;
-    box-shadow: 0 0px 5px 0px #cbc0c0;
+    cursor: default;
 }
 
 .top {
@@ -329,7 +334,7 @@ h2~ul {
 }
 
 article p {
-    font-family:'Lato', sans-serif;;
+    font-family:'Lato', sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 1rem;
@@ -337,18 +342,99 @@ article p {
 }
 
 /*footer*/
-.logo-brand{
-    font-family:'Roboto',sans-serif;
-    font-size: 32px;
-    color: #f2800a;
-}
-.footer{
-    background-color: #10102a;
-}
+
 .logo-link{
-    
+    float: left;
+    width: 25%;
+    background-color: #beb5d2;
+    height: 250px;
 }
-.contact-div{}
-.quick-div{}
-.footer-heading{}
-.footer-p {}
+
+.logo-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #262121;
+    font-weight: 600;
+    margin: 60px 120px;
+}
+
+.social-media-links{
+    margin-left: 86px;
+    margin-bottom: 15px;
+    color: #262121;
+}
+
+.contact-div {
+    float:left;
+    width:50%;
+    background-color: #beb5d2;
+    height: 250px;
+    display: grid;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.quick-div{
+    float: right;
+    width: 25%;
+    background-color: #beb5d2;
+    height: 250px;
+}
+
+.contact-div,.quick-div{
+    line-height: 25px;
+}
+
+.footer-heading{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    margin: 25px 10px;
+}
+
+.footer-span {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #262121;
+    display: grid;
+    align-items: center;
+    align-content: stretch;
+    justify-content: start;
+}
+
+.footer-p a:hover{
+    color: #262121;
+}
+
+.footer-p a:visited{
+    color: #262121;
+}
+
+.footer-p a:active{
+    color: #262121;
+}
+
+.footer-p a:link{
+    color: #262121;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.quick-div .footer-span{
+    align-content: center;
+}
+
+.footer-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #262121;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.footer-icon i{
+    margin: 8px;
+}
