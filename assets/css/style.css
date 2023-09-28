@@ -81,7 +81,7 @@ header {
     transform: translate(-40%, -50%);
     padding-left: 15px;
     padding-right: 200px;
-    font-size: 2.5vw;
+    font-size: 2.5em;
     font-weight: 900;
     letter-spacing: 2px;
 }
@@ -98,7 +98,7 @@ ul{
 /*Styling buttons*/
 .button{
     font-family: 'Lato',sans-serif;
-    font-size: 1vw;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
     background-color: #beb5d2;
@@ -121,7 +121,7 @@ h2~ul {
 
 .heading{
     font-family: 'Roboto',sans-serif;
-    font-size: 2vw;
+    font-size: 2em;
     color: #262121;
     text-align: center;
     padding-top: 30px;
@@ -152,7 +152,7 @@ h2~ul {
 
 .text-under{
     font-family: 'Lato', sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 600;
     letter-spacing: 1px;
     margin-top: 1rem;
@@ -160,7 +160,7 @@ h2~ul {
 
 .text-next{
     font-family: 'Lato',sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -234,7 +234,7 @@ h2~ul {
 
 .link-icons{
     font-family: 'Lato', sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 700;
     text-align: center;
     background-color: #f7d4a6;
