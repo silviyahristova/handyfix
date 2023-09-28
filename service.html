@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HandyFix offers handyman services.">
-    <meta name="keywords" content="handy, fix, handyman, homerepair, electrical, plumbing, assembly, ">
+    <meta name="keywords" content="handy, fix, handyman, homerepair, services, London">
     <meta name="autor" content="Silviya Hristova">
-    <!--meta tag "robots"(search engines will service page in the search results, follow-to follow links on the page)-->
-    <meta name="robots" content="service, follow">
+    <!--meta tag "robots"(search engines will include index page in the search results, follow-to follow links on the page)-->
+    <meta name="robots" content="index, follow">
 
     <!--favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest" crossorigin="use-credentials">
 
     <!-- style sheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    
+
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+
     <!--fontawesome icons-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/65fc689ce4.js" crossorigin="anonymous"></script>
 
-    <title>HandyFix-services</title>
+    <title>HandyFix</title>
 
 </head>
+
 <body>
     <header>
         <!--nav bar-->
         <nav>
             <a href="index.html">
-                <img src="assets/images/logo.jpg" alt="HandyFix Logo" id="logo">
+                <p id="logo">HandyFix</p>
             </a>
             <div id="menu">
                 <a href="index.html">Home</a>
@@ -49,10 +53,10 @@
 
     <!--hero image on service page-->
     <section>
-        <div>
+        <div id="conteiner-service">
             <img src="assets/images/servicepage/heroservices.jpeg" alt="Tools" id="tools">
-            <div>
-                <h2>Services</h2>
+            <div class="centered">
+                <h1 id="cover-text">Services</h1>
             </div>
         </div>
     </section>
@@ -257,39 +261,46 @@
 
     <footer>
         <!--logo and social media links-->
-        <div>
-            <a href="index.html">
-                <img src="assets/images/logo.jpg" alt="HandyFix Logo" id="handyfix-logo">
-            </a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        </div>
+        <div class="footer">
+            <div class="logo-link">
+                <a href="index.html">
+                    <p class="logo-brand">HandyFix</p>
+                </a>
+                <a class="social-media-links" href="https://www.facebook.com/" target="_blank"><i
+                        class="fa-brands fa-square-facebook fa-2x"></i></a>
+                <a class="social-media-links" href="https://www.instagram.com/" target="_blank"><i
+                        class="fa-brands fa-instagram fa-2x"></i></a>
+                <a class="social-media-links" href="https://twitter.com/" target="_blank"><i
+                        class="fa-brands fa-twitter fa-2x"></i></a>
+            </div>
     
-        <!--Contact info in footer section-->
-        <div>
-            <h4>Contact Info</h4>
-            <i class="fa-solid fa-location-dot"></i>
-            <p>London, United Kingdom</p>
-            <i class="fa-solid fa-phone"></i>
-            <p>+447485976489</p>
-            <i class="fa-solid fa-at"></i>
-            <p>info@handyfix.co.uk</p>
-        </div>
+            <!--Contact info in footer section-->
+            <div class="contact-div">
+                <h4 class="footer-heading">Contact Info</h4>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="text-next span">London, United Kingdom</span>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="text-next span">+447485976489</span>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-at"></i>
+                    <span class="text-next span">info@handyfix.co.uk</span>
+                </div>
+            </div>
     
-        <!--Quick links in footer section-->
-        <div>
-            <h4>Quick Links</h4>
-            <p><a href="index.html">Home</a></p>
-            <p><a href="index.html#about">About</a></p>
-            <p><a href="service.html">Services</a></p>
-            <p><a href="#price">Price</a></p>
-            <p><a href="contact.html">Contact us</a></p>
+            <!--Quick links in footer section-->
+            <div class="quick-div">
+                <h4 class="footer-heading">Quick Links</h4>
+                <p class="footer-p"><a href="index.html">Home</a></p>
+                <p class="footer-p"><a href="index.html#about">About</a></p>
+                <p class="footer-p"><a href="service.html">Services</a></p>
+                <p class="footer-p"><a href="service.html#price">Price</a></p>
+                <p class="footer-p"><a href="contact.html">Contact us</a></p>
+            </div>
         </div>
     </footer>
-    
-    <!--fontawesome script for the newest version-->
-    <script src="https://kit.fontawesome.com/65fc689ce4.js" crossorigin="anonymous"></script>
-
 </body>
 </html>
