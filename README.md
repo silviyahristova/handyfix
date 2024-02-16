@@ -4,6 +4,28 @@
 
 ---
 
+## Table of content
+* [**About**](#about)
+* [**User Experiences**](#user-experiences)
+  * [**User Stories**](#user-stories)
+  * [**Strategy**](#strategy)
+  * [**Scope**](#scope)
+  * [**Structure**](#structure)
+  * [**Skeleton**](#skeleton)
+  * [**Surface**](#surface)
+* [**Technologies Used**](#technologies-used)
+  * [**Languages**](#languages)
+  * [**Tools**](#tools)
+* [**Features**](#features)
+* [**Future features**](#future-features)
+* [**Deployment**](#deployment)
+* [**Credits**](#credits)
+  * [**Content**](#content)
+  * [**Media**](#media)
+* [**Acknowledgements**](#acknowledgements)
+
+
+
 ## About
 
 HandyFix is a reliable and responsive website about the company that provides handyman services for people in and around London. The site will target individuals who need one or more of these services.
@@ -119,7 +141,7 @@ To create the wireframes, the design tool Figma is used. There were nine frames 
 
 The color palette is selected based on the unique meaning of each colors and their combination together. Orange color is associated with energy,warmth and enthusiasm.It is symbolized passion as well as quality, confidence and success. Also evoke feelings of excitement and optimism. It`s the color for creativity and innovation. Light beige is neutral color associated with simplicity, calmness and elegance. Beige symbolizes work and promotes hard work. Dark grayish-brown color gives stability and seriousness, which adds elegance to the color palette. The color symbolized intellect and stability.
 
-The color combination of orange shade and a light beige shade can work together, especially if aiming for a warm and inviting color scheme. The orange provides a vibrant pop of color, while the light beige offers a soft and neutral backdrop. Together they are creating balances and harmonious color palette that feels welcoming and cheerful. Light beige and dark grayish-brown create balance due to the contrast between them. The combination between orange and dark grayish-brown create an attention-grabbing contrast. The palette were created using the site [color-hex.com](https://www.color-hex.com/). Tints and Shades of these colours will be used also and are created using the site [maketintsandshade.com](https://maketintsandshades.com/).
+The color combination of orange shade and a light beige shade can work together, especially if aiming for a warm and inviting color scheme. The orange provides a vibrant pop of color, while the light beige offers a soft and neutral backdrop. Together they are creating balances and harmonious color palette that feels welcoming and cheerful. Light beige and dark grayish-brown create balance due to the contrast between them. The combination between orange and dark grayish-brown create an attention-grabbing contrast. The palette were created using the site [Color-hex.com](https://www.color-hex.com/). Tints and Shades of these colours will be used also and are created using the site [Maketintsandshade.com](https://maketintsandshades.com/).
 
 ![Colour Pallette](assets/images/docs/color-palette.webp)
 
@@ -145,3 +167,56 @@ The images on the pages were chosen to be relevant to the content of the page. A
 **Icons**
 
 The icons that will be used are from [Font Awesome](https://fontawesome.com/) website. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. Icons for the services are carefully chosen to be semantic relevance to represent concepts. They help users quickly understand and navigate throughout the website. The icons on the footer used to identify the opening hours, email and telephone number are all easily appealing on the eye for the user.
+
+## Technologies Used
+
+### Languages
+
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Tools
+
+## Features
+
+## Future features
+
+## Deployment
+
+### GitHub Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+1. In the GitHub repository, navigate to the Settings tab 
+2. From the left hand menu select 'Pages'
+3. From the source select Branch: main
+4. Click 'Save'
+5. A live link will be displayed when published successfully. 
+
+Link to the [live site] <!--add link to the live website here-->
+
+### Forking the GitHub Repository
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+1. Click on Fork button in upper right hand corner
+
+### Cloning the GitHub Repository
+
+You can clone the repository to use locally by following these steps:
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. Click on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+7. Press 'enter' to create the clone
+
+The project will now be cloned locally for you to use.
+
+## Credits
+
+### Content
+
+### Media
+
+## Acknowledgements
