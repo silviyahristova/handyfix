@@ -88,7 +88,7 @@ The success page will be made of three sections. There will be a header section 
 
 ### **Skeleton**
 
-To create the wireframes, the design tool Figma. There were nine frames created- for each page and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
+To create the wireframes, the design tool Figma is used. There were nine frames created- for the tree main pages and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
 
 <details>
 
@@ -112,3 +112,36 @@ To create the wireframes, the design tool Figma. There were nine frames created-
 ![mobile2](assets/images/docs/mobile2.webp)
 ![mobile3](assets/images/docs/mobile3.webp)
 </details>
+
+### **Surface**
+
+**Colour**
+
+The color palette is selected based on the unique meaning of each colors and their combination together. Orange color is associated with energy,warmth and enthusiasm.It is symbolized passion as well as quality, confidence and success. Also evoke feelings of excitement and optimism. It`s the color for creativity and innovation. Light beige is neutral color associated with simplicity, calmness and elegance. Beige symbolizes work and promotes hard work. Dark grayish-brown color gives stability and seriousness, which adds elegance to the color palette. The color symbolized intellect and stability.
+
+The color combination of orange shade and a light beige shade can work together, especially if aiming for a warm and inviting color scheme. The orange provides a vibrant pop of color, while the light beige offers a soft and neutral backdrop. Together they are creating balances and harmonious color palette that feels welcoming and cheerful. Light beige and dark grayish-brown create balance due to the contrast between them. The combination between orange and dark grayish-brown create an attention-grabbing contrast. The palette were created using the site [color-hex.com](https://www.color-hex.com/). Tints and Shades of these colours will be used also and are created using the site [maketintsandshade.com](https://maketintsandshades.com/).
+
+![Colour Pallette](assets/images/docs/color-palette.webp)
+
+<details><summary>Tints and shades</summary>
+
+![Tints and shades](assets/images/docs/tintandshades.webp) 
+</details>
+
+**Typography**
+
+The fonts that will be used in the website will be imported from [Google Fonts](https://fonts.google.com/) and will be used [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lato](https://fonts.google.com/specimen/Lato?query=lato). Roboto has clean and simple design which pairs well with Lato`s versatility and legibility. Together they are creating a sleek and minimalist look that is ideal for modern website. Both are sans-serif fonts that share similar characteristics in terms of letterforms and proportions in their modern desing. Lato has a slightly rounder and friendly appearance, while Roboto has a more geometric and modern feel. These differences create visual hierarchy and contrast in typography. Roboto will be used for the logo and headings in each section, while Lato will be used for the main body text.
+
+**Logo**
+
+The logo is created by myself using Figma design tool. The font for the brand is Roboto, for the slogan is Lato. The colors are choosen from the palette for the website. This will help users connect the logo with the colors of the company and website.
+
+![HandyFix Logo](assets/images/docs/logofigma.webp)
+
+**Images**
+
+The images on the pages were chosen to be relevant to the content of the page. All of them are regarding home repair services, handymen team and images of their previous work. The video has been selected to give the user a more in depth vision of what work quality the company is providing.
+
+**Icons**
+
+The icons that will be used are from [Font Awesome](https://fontawesome.com/) website. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. Icons for the services are carefully chosen to be semantic relevance to represent concepts. They help users quickly understand and navigate throughout the website. The icons on the footer used to identify the opening hours, email and telephone number are all easily appealing on the eye for the user.
