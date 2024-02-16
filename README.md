@@ -67,3 +67,10 @@ This project is to design and create a static website that is done mainly throug
 The main goal of the website is to get potential customers to use one or more of the provided services. The site will help users learn about the range of services offered by the handyman, including repairs, maintenance, and installations. This helps users understand if the handyman can address their specific needs. The website.
 
 By making the site fully responsive, the site aims to be easily accessible no matter which platform the user is viewing the site on.
+
+### **Scope**
+
+The main features that will be implemented into the website will be included on four separate pages. The design of the website should look professional and trustworthy at the same time simple and eye-catching. In help to create this design will be carefully selected color palette and fonts.
+
+The site will have an "About section" where users can learn some more information about the company. This will help build more trust in users. We will provide contact details, making it easy for users to get in touch. We will showcase previous work through photos, testimonials, and a video. This will help users gauge the handyman`s skill and quality of work. Users can find out if the handymen serves their geographical area, ensuring that they are accessible to potential customers. The website will show pricing information. This transparency can help users budget for their home improvement projects.
+
