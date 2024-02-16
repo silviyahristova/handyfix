@@ -85,3 +85,30 @@ The service page will be made up of five sections- header with logo and navigati
 The contact page will be made up of three sections. There will be a header section with a navigation bar and logo; contact information which will include phone number, email address, office opening hours, get in touch form that can be filled and submitted by users, map- so that can users see where the company office is based; and footer with contact information and quick links.
 
 The success page will be made of three sections. There will be a header section with a navigation bar and logo, section with a message that will show users that they successfully complete the form, and footer with contact information and quick links.
+
+### **Skeleton**
+
+To create the wireframes, the design tool Figma. There were nine frames created- for each page and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
+
+<details>
+
+<summary>Desktop</summary>
+
+![desktop1](assets/images/docs/desktop1.webp)
+![desktop2](assets/images/docs/desktop2.webp)
+![desktop3](assets/images/docs/desktop3.webp)
+</details>
+
+<details><summary>Tablet</summary>
+
+![tablet1](assets/images/docs/tablet1.webp)
+![tablet2](assets/images/docs/tablet2.webp)
+![tablet3](assets/images/docs/tablet3.webp)
+</details>
+
+<details><summary>Mobile</summary>
+
+![mobile1](assets/images/docs/mobile1.webp)
+![mobile2](assets/images/docs/mobile2.webp)
+![mobile3](assets/images/docs/mobile3.webp)
+</details>
