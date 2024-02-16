@@ -59,3 +59,11 @@ The user will be provided with the essential information and pricing about the s
 - As owner, I want to encourage users to go to our social media pages which will help boost the profile of the company.
 
 - As owner, I want the site to be responsive so users on any platform can successfully navigate the site.
+
+### **Strategy**
+
+This project is to design and create a static website that is done mainly through HTML and CSS.
+
+The main goal of the website is to get potential customers to use one or more of the provided services. The site will help users learn about the range of services offered by the handyman, including repairs, maintenance, and installations. This helps users understand if the handyman can address their specific needs. The website.
+
+By making the site fully responsive, the site aims to be easily accessible no matter which platform the user is viewing the site on.
