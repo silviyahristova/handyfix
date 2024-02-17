@@ -143,6 +143,23 @@ a {
     border: 1px solid #262121;
 }
 
+/*Hero service page*/
+
+#service {
+    margin-bottom: 40px;
+}
+
+#cover-text-service {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-title-service { 
+    font-size: 35px;
+}
+
 /*About section*/
 
 .heading {
@@ -509,6 +526,10 @@ footer {
         font-weight: 500;
     }
 
+    .main-title-service {
+        font-size: 55px;
+    }
+
     .button {
         font-size: 12px;
     }
@@ -538,6 +559,10 @@ footer {
 
     .main-title {
         font-size: 3.5em;
+    }
+
+    .main-title-service {
+        font-size: 65px;
     }
 
     .button {
@@ -585,6 +610,10 @@ footer {
         font-size: 5em;
     }
 
+    .main-title-service {
+        font-size: 75px;
+    }
+
     .button {
         margin:0 15px;
         padding: 5px;
@@ -617,12 +646,21 @@ footer {
         font-size: 6em;
         font-weight: 500;
     }
+
+    .main-title-service {
+        font-size: 100px;
+    }
+
 }
 
 @media screen and (min-width:1399px) {
     #cover-text {
         top: 50px;
         left: 170px;
+    }
+
+    .main-title-service {
+        font-size: 130px;
     }
 }
 
