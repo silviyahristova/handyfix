@@ -287,7 +287,7 @@ div#icons {
     margin: 15px;
 }
 
-.link-icons{
+.link-icons {
     font-family: 'Lato', sans-serif;
     font-size: 10px;
     font-weight: 700;
@@ -310,12 +310,12 @@ div#icons {
     box-shadow: none;
 }
 
-.link-color:visited{
+.link-color:visited {
     color: #262121;
     text-decoration: none;
 }
 
-.link-color:link{
+.link-color:link {
     color: #262121;
 }
 
@@ -332,12 +332,12 @@ div#icons {
 
 /*Testimonial section*/
 
-.heading-testimonial{
+.heading-testimonial {
     background-color: #fceedb;
     padding: 1px 0;
 }
 
-.review-image{
+.review-image {
     border-radius: 10%;
 }
 
@@ -357,7 +357,7 @@ div#icons {
     height: 40px;
 }
 
-.review-container{
+.review-container {
     padding: 10px;
     margin: 2rem;
     border-radius: 10px;
@@ -382,6 +382,85 @@ div#icons {
 
 .li-star {
     margin: 0px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    background-color: #e9e9e9;
+    border: 1px solid #262121;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-link {
+    text-align: center;
+    padding: 15px;
+
+}
+
+.logo-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #262121;
+    font-weight: 600;
+}
+
+.social-media-links {
+    padding: 15px;
+    color: #262121;
+    margin: 15px;
+}
+
+.contact-div {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.quick-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-heading {
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+}
+
+.footer-p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #262121;
+    padding: 2px 2px 2px 15px;
+}
+
+.footer-p a:link {
+    color: #262121;
+}
+
+.footer-p a:hover {
+    color: #f2800a;
+}
+
+.footer-p a:active {
+    color: #262121;
+}
+
+.footer-p a:visited {
+    color: #5d5959;
 }
 
 /*Media Queries*/
@@ -472,6 +551,22 @@ div#icons {
 
     .text-over-image {
         font-size: 22px;
+    }
+
+    .logo-brand {
+        margin-top: 30%;
+    }
+
+    .contact-div {
+        margin-top: 25px;
+    }
+
+    .quick-div {
+        margin-top: 33px;
+    }
+
+    .logo-link{
+        padding: 0;
     }
 
 }
