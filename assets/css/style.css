@@ -426,6 +426,39 @@ div#icons {
     width: 100%;
 }
 
+/*Price section*/
+
+#price {
+    background-color: #e9e9e9;
+}
+
+.card {
+    --bs-card-spacer-x: 0;
+    box-shadow: 4px 4px 6px #262121;
+    padding: 0;
+}
+.card-body {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+}
+
+ .card-title {
+    background-color: #fce6ce;
+    margin: 0;
+    padding: 15px;
+ }
+
+ .card-text {
+    font-size: 18px;
+    line-height: 2;
+ }
+
+ .card-header {
+    background-color: #e9e9e9;
+ }
+
+
 /*Footer*/
 
 footer {
@@ -568,6 +601,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 766px){
+    .logo-brand {
+        margin-top:0;
+    }   
+}
+
 /*Tablet*/
 @media screen and (min-width: 767px) {
     .heading {
@@ -619,6 +658,23 @@ footer {
         padding: 0;
     }
 
+    .card {
+        width: 48%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 /*Laptop*/
@@ -685,6 +741,11 @@ footer {
     .main-title-service {
         font-size: 100px;
     }
+
+    .card {
+        width: 24%;
+    }
+
 }
 
 @media screen and (min-width:1399px) {
