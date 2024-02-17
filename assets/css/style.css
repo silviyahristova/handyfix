@@ -98,7 +98,8 @@ nav {
 
 .main-title {
     margin: 0;
-    font-size: 2em;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 h1 {
@@ -113,16 +114,19 @@ ul {
 
 li {
     float: left;
-    margin: 5px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .button {
     color: #262121;
     font-family: 'Lato',sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #e9e9e9;
     padding: 4px;
     border:1px solid #f2800a;
     border-radius: 10px;
@@ -144,6 +148,13 @@ li {
     color: #262121;
     text-align: center;
     padding: 15px;
+}
+
+hr {
+    margin: auto;
+    width: 35%;
+    border: 2px solid #262121;
+    border-radius: 50%;
 }
 
 p {
@@ -186,3 +197,147 @@ div#icons {
     margin-top: 1rem;
 }
 
+/*Media Queries*/
+
+@media screen and (max-width:320px) {
+    .text {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    #cover-text {
+        top: 0px;
+        left: 20px;
+    }
+}
+
+/*Mobile device*/
+@media screen and (min-width: 321px) {
+    .text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #cover-text {
+        top: 0px;
+        left: 20px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .heading {
+        font-size: 2em;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    #cover-text {
+        left: 70px;
+    }
+
+    .main-title {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+    
+    li {
+        margin: 5px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 767px) {
+    .heading {
+        font-size: 2.5em;
+    }
+
+    #logo {
+        font-size: 35px;
+    }
+
+    #cover-text {
+        left: 60px;
+    }
+
+    .main-title {
+        font-size: 3.5em;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    div#icons {
+        flex-direction: row;
+    }
+
+}
+
+/*Laptop*/
+@media screen and (min-width: 991px){
+    #logo {
+        font-size: 40px;
+    }
+
+    #cover-text {
+        left: 100px;
+    }
+
+    .main-title {
+        font-size: 5em;
+    }
+
+    .button {
+        margin:0 15px;
+        padding: 5px;
+        font-size: 20px;
+        border:2px solid #f2800a;
+    }
+    
+    .center {
+        width: 900px;
+        margin: auto;
+    }
+
+    div#icons {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width:1199px) {
+    #cover-text {
+        left: 130px;
+    }
+
+    .main-title {
+        font-size: 6em;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width:1399px) {
+    #cover-text {
+        top: 50px;
+        left: 170px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    body, nav {
+        max-width: 1400px;
+        margin: 0 auto;
+        border: 1px solid #262121;
+    }
+
+    html{
+        background-color: #ffffff;
+    }
+}
