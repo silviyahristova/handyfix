@@ -34,7 +34,7 @@ A handyman business typically offers a wide range of services related to home ma
 
 The user will be provided with the essential information and pricing about the services, as well as a gallery that will allow them to see the previous projects that have been done by the highly skilled and experienced specialists at HandyFix. All this will give the user the confidence that they are making the right decision by choosing to get in touch.
 
-<!--add link to the live website here***Click**[here]()**to view the live website.***-->
+Click [**here**](https://silviyahristova.github.io/handyfix/) to view the live website.
 
 ## User Experiences
 
@@ -192,7 +192,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 4. Click 'Save'
 5. A live link will be displayed when published successfully. 
 
-Link to the [live site] <!--add link to the live website here-->
+Link to the [**live site**](https://silviyahristova.github.io/handyfix/).
 
 ### Forking the GitHub Repository
 
