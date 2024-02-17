@@ -80,3 +80,57 @@ nav {
     opacity: 100%;
     font-weight: 800;
 }
+
+/*Styling hero section*/
+
+.hero {
+    position: relative;
+    border: 1px solid #262121;
+}
+
+#hero {
+    width: 100%;
+}
+
+#cover-text {
+    position: absolute;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    padding: 3px;
+}
+
+ul {
+    padding: 5px;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin: 5px;
+}
+
+.button {
+    color: #262121;
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 4px;
+    border:1px solid #f2800a;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #f2800a;
+    transition: 0.7s;
+    cursor: pointer;
+    border: 1px solid #262121;
+}
