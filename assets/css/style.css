@@ -458,6 +458,27 @@ div#icons {
     background-color: #e9e9e9;
  }
 
+ /*Gallery*/
+
+ #gallery {
+    background-color: #fce6ce;
+    
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: 100%;
+    border: 5px solid #262121;
+}
+
+.img-container {
+    display: flex;
+    padding: 15px;
+}
+
+video {
+    max-width: 100%;
+}
 
 /*Footer*/
 
