@@ -480,6 +480,81 @@ video {
     max-width: 100%;
 }
 
+/*Contact page*/
+
+#contact {
+    border: 1px solid #262121;
+}
+
+.form-container {
+    margin: 15px;
+}
+
+form {
+    margin-bottom: 12px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid #f2800a;
+    float: left;
+}
+
+label {
+    display: none;
+}
+.column {
+    width: 100%;
+}
+
+input[type=submit] button {
+    background-color: #e9e9e9;
+}
+
+input[type=submit]:hover {
+    background-color: #f2800a;
+}
+
+.button-submit {
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px;
+    background-color: #e9e9e9;
+    border: 2px solid #f2800a;
+    border-radius: 10px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.button-submit:hover {
+    background-color: #f2800a;
+    border: 1px solid #262121;
+}
+
+a {
+    text-decoration: none;
+}
+
+.map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
 /*Footer*/
 
 footer {
@@ -620,6 +695,15 @@ footer {
     .li-star{
         margin: 2px;
     }
+
+    .form-container {
+        margin: 15px 35px;
+    }
+
+    form {
+        margin: 12px;
+    }
+
 }
 
 @media screen and (max-width: 766px){
@@ -682,6 +766,11 @@ footer {
     .card {
         width: 48%;
         margin: 0 auto;
+    }
+
+    .map iframe {
+        height: 79%;
+        margin-top: 18px;
     }
 
 }
@@ -747,6 +836,14 @@ footer {
         flex-direction: row-reverse;
     }
 
+    .map {
+        padding-bottom: 0;
+    }
+
+    .button-submit {
+        margin: auto;
+    }
+
 }
 
 @media screen and (min-width:1199px) {
@@ -765,6 +862,10 @@ footer {
 
     .card {
         width: 24%;
+    }
+
+    .logo-brand {
+        margin-top: 20%;
     }
 
 }
