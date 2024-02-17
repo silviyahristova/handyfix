@@ -102,7 +102,7 @@ nav {
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 3px;
 }
 
@@ -134,3 +134,55 @@ li {
     cursor: pointer;
     border: 1px solid #262121;
 }
+
+/*About section*/
+
+.heading {
+    margin: 25px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color: #262121;
+    text-align: center;
+    padding: 15px;
+}
+
+p {
+    margin: 0;
+}
+
+.text {
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    color: #262121;
+    padding: 15px;
+    text-align:center;
+    line-height: 2;
+}
+
+.center {
+    margin:  15px;
+    text-align: justify;
+}
+
+div#icons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#icons {
+    width:100%;    
+}
+
+.icontext {
+    text-align: center;
+    padding: 15px;
+}
+
+.text-under-icon {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
