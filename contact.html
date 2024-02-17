@@ -36,7 +36,7 @@
 <body>
     <header>
         <!--nav bar using bootstrap-->
-        <nav class="navbar navbar-expand-lg bg-color-black">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a href="index.html" class="nav-brand">
                     <span id="logo">HandyFix</span>
@@ -61,6 +61,54 @@
 
     <!--Contact info section, form and map-->
     <section>
+        <h2 class="heading heading-p">Contact us</h2>
+        <p class="text-under-heading"> Got an enquiry or question? After a quote? Feel free to contact us about your new project today!</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="contact-div col-sm-12 col-md-4">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+447485976489</p>
+                </div>
+
+                <div class="contact-div col-sm-12 col-md-4 order-md-3">
+                    <i class="fa-solid fa-at"></i>
+                    <p>info@handyfix.co.uk</p>
+                </div>
+
+                <div class="contact-div col-sm-12 col-md-4 order-md-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Monday-Friday</p>
+                    <p>08:00-22:00h</p>
+                    <p>Saturday-Sunday</p>
+                    <p>08:00-18:00h</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact us form-->
+        <!--I`m not using method atribute, because is not allowing me after submitiing to redirect to success page -->
+        <!--The idea for success page it is from slack channel #project-milestone-1-->
+        <!--The success page code is contributed from https://codepen.io/warrendunlop/pen/YmVKzm; It has been modified for my specific requirements-->
+        <div class="form-container">    
+                <h2 class="heading">Get in touch!</h2>
+            <div class="row g-1">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <form action="success.html">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="full_name" placeholder="Enter your full name" required>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        <textarea name="message" id="message" placeholder="Enter your message" rows="8" cols="30" required></textarea>
+                        <input type="submit" value="Submit" class="button-submit"><a href="success.html"></a>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 map">
+                    <!--Embed google maps with help from https://blog.hubspot.com/website/how-to-embed-google-map-in-html-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.609440601518!2d-0.057963223120397075!3d51.520380909754685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cd17b06193d%3A0xb20647c5317e9f54!2sHandyman%20Services%20London!5e0!3m2!1sbg!2suk!4v1708154603628!5m2!1sbg!2suk" 
+                    width="400" height="300" style="border: 1px solid #262121;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
 
     </section>
 
