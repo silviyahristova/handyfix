@@ -55,7 +55,7 @@ nav {
     color: #262121;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
 }
 
 .navbar-toggler {
@@ -193,7 +193,6 @@ p {
 
 .center {
     margin:  15px;
-    text-align: justify;
 }
 
 div#icons {
@@ -209,6 +208,7 @@ div#icons {
 .icontext {
     text-align: center;
     padding: 15px;
+    margin: 15px;
 }
 
 .text-under-icon {
@@ -242,7 +242,6 @@ div#icons {
 .image-team {
     width: 75%;
     border: 3px solid #262121;
-    border-radius: 10%;
     margin: auto;
     opacity: 1;
     display: block;
@@ -294,20 +293,14 @@ div#icons {
 /*Our services section*/
 
 .heading-service {
-    background-color: whitesmoke;
-    border: 2px solid #f2800a;
+    background-color: #faf9fa;
     margin: 15px;
     padding: 10px;
 }
 
-.icontext {
-    margin: 15px;
-}
-
 .link-icons {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 10px;
-    font-weight: 700;
     text-align: center;
     background-color: #e9e9e9;
     border: 3px solid #f2800a;
@@ -348,11 +341,6 @@ div#icons {
 }
 
 /*Testimonial section*/
-
-.heading-testimonial {
-    background-color: #fceedb;
-    padding: 1px 0;
-}
 
 .review-image {
     border-radius: 10%;
@@ -582,7 +570,7 @@ footer {
 
 .social-media-links {
     padding: 15px;
-    color: #262121;
+    color: #f2800a;
     margin: 15px;
 }
 
@@ -631,7 +619,7 @@ footer {
 }
 
 .footer-p a:visited {
-    color: #5d5959;
+    color: #262121;
 }
 
 /*Media Queries*/
@@ -643,8 +631,8 @@ footer {
     }
 
     #cover-text {
-        top: 0px;
-        left: 20px;
+        top: 5%;
+        left: 10%;
     }
 }
 
@@ -656,8 +644,8 @@ footer {
     }
 
     #cover-text {
-        top: 0px;
-        left: 20px;
+        top: 5%;
+        left: 10%;
     }
 
 }
@@ -669,10 +657,6 @@ footer {
 
     .text {
         font-size: 20px;
-    }
-
-    #cover-text {
-        left: 70px;
     }
 
     .main-title {
@@ -720,10 +704,6 @@ footer {
 
     #logo {
         font-size: 35px;
-    }
-
-    #cover-text {
-        left: 60px;
     }
 
     .main-title {
@@ -793,12 +773,8 @@ footer {
         font-size: 40px;
     }
 
-    #cover-text {
-        left: 100px;
-    }
-
     .main-title {
-        font-size: 5em;
+        font-size: 4.5em;
     }
 
     .main-title-service {
@@ -847,10 +823,6 @@ footer {
 }
 
 @media screen and (min-width:1199px) {
-    #cover-text {
-        left: 130px;
-    }
-
     .main-title {
         font-size: 6em;
         font-weight: 500;
