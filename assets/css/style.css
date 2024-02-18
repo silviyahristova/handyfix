@@ -243,6 +243,9 @@ div#icons {
     display: block;
     transition: 0.5s ease;
     backface-visibility: hidden;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .container-image-text {
@@ -735,6 +738,10 @@ footer {
         flex-direction: row;
     }
 
+    .image-team {
+        height: 400px;
+    }
+
     .text-over-image {
         font-size: 22px;
     }
@@ -808,6 +815,10 @@ footer {
     div#icons {
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .image-team {
+        height: 300px;
     }
 
     .text-over-image {
