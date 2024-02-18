@@ -157,7 +157,7 @@ a {
 }
 
 .main-title-service { 
-    font-size: 35px;
+    font-size: 30px;
 }
 
 /*About section*/
@@ -541,6 +541,23 @@ a {
     left: 0;
     top: 0;
     position: absolute;
+}
+
+/*Success page*/
+#hero-success{
+    opacity: 40%;
+}
+
+#cover-text-success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.margin {
+    margin: 0;
 }
 
 /*Footer*/
