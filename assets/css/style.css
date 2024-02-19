@@ -46,7 +46,7 @@ nav {
 }
 
 .nav-link {
-    font-size: 125%;
+    font-size: 1.3em;
     text-decoration: none;
     color: #262121;
     font-family: 'Roboto', sans-serif;
@@ -153,15 +153,16 @@ a {
 }
 
 .main-title-service { 
-    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
 }
 
 /*About section*/
 
 .heading {
-    margin: 25px;
+    margin: 15px;
     font-family: 'Roboto',sans-serif;
-    font-size: 26px;
+    font-size: 17px;
     color: #262121;
     text-align: center;
     padding: 15px;
@@ -180,7 +181,8 @@ p {
 
 .text {
     font-family: 'Lato',sans-serif;
-    font-size: 20px;
+    font-size: 1em;
+    font-weight: 500;
     color: #262121;
     padding: 15px;
     text-align:center;
@@ -221,7 +223,7 @@ div#icons {
 
 .text-under-heading {
     font-family: 'Lato',sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: #262121;
     padding: 15px;
@@ -295,6 +297,11 @@ div#icons {
     background-color: #faf9fa;
     margin: 15px;
     padding: 10px;
+}
+
+h3 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16.5px;
 }
 
 .link-icons {
@@ -396,12 +403,21 @@ div#icons {
     align-items: center;
 }
 
+.service-heading {
+    margin: 15px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color: #262121;
+    text-align: center;
+    padding: 15px;
+}
+
 .service-p {
     padding: 0 1rem;
     font-family: 'Lato',sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 500;
-    line-height: 2;
+    line-height: 1.5;
     color: #262121;
     margin: 0 15px;
 }
@@ -433,6 +449,7 @@ div#icons {
     background-color: #fce6ce;
     margin: 0;
     padding: 15px;
+    font-size: calc(1.3rem + .6vw);
  }
 
  .card-text {
@@ -554,6 +571,11 @@ a {
     text-align: center;
 }
 
+.main-title-success {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
 .margin {
     margin: 0;
 }
@@ -573,7 +595,6 @@ footer {
 .logo-link {
     text-align: center;
     padding: 15px;
-
 }
 
 .logo-brand {
@@ -610,13 +631,13 @@ footer {
 
 .footer-heading {
     font-family: 'Roboto',sans-serif;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 .footer-p {
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 500;
     color: #262121;
     padding: 2px 2px 2px 15px;
 }
@@ -640,10 +661,6 @@ footer {
 /*Media Queries*/
 
 @media screen and (max-width:320px) {
-    .text {
-        font-size: 17px;
-        font-weight: 500;
-    }
 
     #cover-text {
         top: 5%;
@@ -653,10 +670,6 @@ footer {
 
 /*Mobile device*/
 @media screen and (min-width: 321px) {
-    .text {
-        font-size: 20px;
-        font-weight: 500;
-    }
 
     #cover-text {
         top: 5%;
@@ -666,21 +679,23 @@ footer {
 }
 
 @media screen and (min-width: 575px) {
-    .heading {
-        font-size: 2em;
-    }
 
-    .text {
-        font-size: 20px;
+    #cover-text {
+        top: 10%;
+        left: 15%;
     }
 
     .main-title {
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: 500;
     }
 
     .main-title-service {
-        font-size: 55px;
+        font-size: 2.5em;
+    }
+
+    .main-title-success {
+        font-size: 2.5em;
     }
 
     .button {
@@ -713,20 +728,41 @@ footer {
 
 /*Tablet*/
 @media screen and (min-width: 767px) {
-    .heading {
-        font-size: 2.5em;
-    }
-
+    
     #logo {
         font-size: 35px;
     }
 
     .main-title {
-        font-size: 3.5em;
+        font-size: 3em;
+    }
+
+    .heading {
+        font-size: 2em;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .text-under-heading {
+        font-size: 16px;
     }
 
     .main-title-service {
-        font-size: 65px;
+        font-size: 3em;
+    }
+
+    .main-title-success {
+        font-size: 3em;
+    }
+
+    .service-heading {
+        font-size: 2em;
+    }
+
+    .service-p {
+        font-size: 20px;
     }
 
     .button {
@@ -744,6 +780,10 @@ footer {
 
     .text-over-image {
         font-size: 22px;
+    }
+
+    h3 {
+        font-size: 1.8em;
     }
 
     .logo-brand {
@@ -772,6 +812,9 @@ footer {
         margin-top: 18px;
     }
 
+    .footer-p {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -788,16 +831,46 @@ footer {
 
 /*Laptop*/
 @media screen and (min-width: 991px){
+
     #logo {
         font-size: 40px;
     }
 
+    #cover-text {
+        top: 15%;
+        left: 17%;
+    }
+
     .main-title {
-        font-size: 4.5em;
+        font-size: 4em;
+    }
+
+    .heading {
+        font-size: 2.5em;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .text-under-heading {
+        font-size: 18px;
     }
 
     .main-title-service {
-        font-size: 75px;
+        font-size: 4em;
+    }
+
+    .main-title-success {
+        font-size: 4em;
+    }
+
+    .service-heading {
+        font-size: 2.5em;
+    }
+
+    .service-p {
+        font-size: 22px;
     }
 
     .button {
@@ -825,6 +898,10 @@ footer {
         font-size: 26px;
     }
 
+    h3 {
+        font-size: 2.2em;
+    }
+
     .left {
         display: flex;
         flex-direction: row;
@@ -843,16 +920,19 @@ footer {
         margin: auto;
     }
 
+    .footer-heading{
+        font-size: 1.8em;
+    }
+    
+    .footer-p {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:1199px) {
-    .main-title {
-        font-size: 6em;
-        font-weight: 500;
-    }
 
-    .main-title-service {
-        font-size: 100px;
+    .main-title {
+        font-size: 4em;
     }
 
     .card {
@@ -866,13 +946,10 @@ footer {
 }
 
 @media screen and (min-width:1399px) {
-    #cover-text {
-        top: 50px;
-        left: 170px;
-    }
 
-    .main-title-service {
-        font-size: 130px;
+    #cover-text {
+    top: 20%;
+    left: 17%;
     }
 }
 
