@@ -29,7 +29,7 @@
     <!-- style sheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-    <title>HandyFix</title>
+    <title>HandyFix-contact details</title>
 
 </head>
 
@@ -99,14 +99,12 @@
         </div>
 
         <!--Contact us form-->
-        <!--I`m not using method atribute, because is not allowing me after submitiing to redirect to success page -->
-        <!--The idea for success page it is from slack channel #project-milestone-1-->
-        <!--The success page code is contributed from https://codepen.io/warrendunlop/pen/YmVKzm; It has been modified for my specific requirements-->
+        <!--From slack community I read that we can use GET method to redirect to success.html-->
         <div class="form-container">    
                 <h2 class="heading">Get in touch!</h2>
             <div class="row g-1">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <form action="success.html">
+                    <form action="success.html" method="get">
                         <label for="name"></label>
                         <input type="text" id="name" name="full_name" placeholder="Enter your full name" autocomplete="on" required>
                         <label for="email"></label>
