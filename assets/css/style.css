@@ -24,6 +24,12 @@ nav {
     background-color: #f79a36;
 }
 
+#logoimage {
+    float:left;
+    width: 10%;
+    border-radius: 50%;
+}
+
 #logo {
     float:left;
     margin-top:5px;
@@ -92,7 +98,7 @@ img {
     max-width: 100%;
 }
 
-#cover-text {
+.cover-text {
     position: absolute;
 }
 
@@ -145,7 +151,7 @@ a {
     margin-bottom: 40px;
 }
 
-#cover-text-service {
+.cover-text-service {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -485,6 +491,18 @@ video {
 
 /*Contact page*/
 
+.cover-text-contact {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+}
+
+.main-title-contact {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fce6ce;
+}
+
 #contact {
     border: 1px solid #262121;
 }
@@ -523,7 +541,7 @@ input[type=submit]:hover {
 
 .button-submit {
     font-family: 'Lato',sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     padding: 8px;
     background-color: #e9e9e9;
@@ -563,7 +581,7 @@ a {
     opacity: 40%;
 }
 
-#cover-text-success {
+.cover-text-success {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -595,6 +613,11 @@ footer {
 .logo-link {
     text-align: center;
     padding: 15px;
+}
+
+.logo-image {
+    width: 25%;
+    border-radius: 50%;
 }
 
 .logo-brand {
@@ -640,6 +663,7 @@ footer {
     font-weight: 500;
     color: #262121;
     padding: 2px 2px 2px 15px;
+    line-height: 2;
 }
 
 .footer-p a:link {
@@ -662,7 +686,7 @@ footer {
 
 @media screen and (max-width:320px) {
 
-    #cover-text {
+    .cover-text {
         top: 5%;
         left: 10%;
     }
@@ -671,18 +695,26 @@ footer {
 /*Mobile device*/
 @media screen and (min-width: 321px) {
 
-    #cover-text {
+    .cover-text {
         top: 5%;
         left: 10%;
     }
 
+    .cover-text-contact {
+        top: 2%;
+        left: 10%;
+    }
 }
 
 @media screen and (min-width: 575px) {
 
-    #cover-text {
+    .cover-text {
         top: 10%;
         left: 15%;
+    }
+
+    .cover-text-contact {
+        top: 3.5%;
     }
 
     .main-title {
@@ -694,12 +726,16 @@ footer {
         font-size: 2.5em;
     }
 
+    .main-title-contact {
+        font-size: 2em;
+    }
+
     .main-title-success {
         font-size: 2.5em;
     }
 
     .button {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     li {
@@ -716,6 +752,10 @@ footer {
 
     form {
         margin: 12px;
+    }
+
+    .logo-image {
+        width: 15%;
     }
 
 }
@@ -753,6 +793,14 @@ footer {
         font-size: 3em;
     }
 
+    .cover-text-contact {
+        top: 5%;
+    }
+
+    .main-title-contact {
+        font-size: 3em;
+    }
+
     .main-title-success {
         font-size: 3em;
     }
@@ -786,8 +834,9 @@ footer {
         font-size: 1.8em;
     }
 
-    .logo-brand {
-        margin-top: 30%;
+    .logo-image {
+        width: 25%;
+        margin-top: 25%;
     }
 
     .contact-div {
@@ -814,6 +863,11 @@ footer {
 
     .footer-p {
         font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .button-submit {
+        font-size: 18px;
     }
 }
 
@@ -832,11 +886,15 @@ footer {
 /*Laptop*/
 @media screen and (min-width: 991px){
 
+    #logoimage {
+        width: 15%;
+    }
+
     #logo {
         font-size: 40px;
     }
 
-    #cover-text {
+    .cover-text {
         top: 15%;
         left: 17%;
     }
@@ -861,6 +919,14 @@ footer {
         font-size: 4em;
     }
 
+    .cover-text-contact {
+        top: 7%;
+    }
+
+    .main-title-contact {
+        font-size: 4em;
+    }
+
     .main-title-success {
         font-size: 4em;
     }
@@ -875,7 +941,7 @@ footer {
 
     .button {
         margin:0 15px;
-        padding: 5px;
+        padding: 10px;
         font-size: 20px;
         border:2px solid #f2800a;
     }
@@ -931,25 +997,37 @@ footer {
 
 @media screen and (min-width:1199px) {
 
+    #logoimage {
+        width: 10%;
+    }
+
     .main-title {
         font-size: 4em;
+    }
+
+    .cover-text-contact {
+        top: 8%;
     }
 
     .card {
         width: 24%;
     }
 
-    .logo-brand {
-        margin-top: 20%;
+    .logo-image {
+        margin-top: 15%;
     }
 
 }
 
 @media screen and (min-width:1399px) {
 
-    #cover-text {
-    top: 20%;
-    left: 17%;
+    .cover-text {
+        top: 20%;
+        left: 17%;
+    }
+
+    .cover-text-contact {
+        top: 10%;
     }
 }
 
