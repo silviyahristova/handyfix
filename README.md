@@ -18,6 +18,7 @@
   * [**Tools**](#tools)
 * [**Features**](#features)
 * [**Future features**](#future-features)
+* [**Testing**](#testing)
 * [**Deployment**](#deployment)
 * [**Credits**](#credits)
   * [**Content**](#content)
@@ -156,9 +157,11 @@ The fonts that will be used in the website will be imported from [Google Fonts](
 
 **Logo**
 
-The logo is created by myself using Figma design tool. The font for the brand is Roboto, for the slogan is Lato. The colors are choosen from the palette for the website. This will help users connect the logo with the colors of the company and website.
+The logo is created using Figma design tool. The colors are choosen from the palette for the website. This will help users connect the logo with the colors of the company and website. Th symbol is related to the purpose of the website.
 
-![HandyFix Logo](assets/images/docs/logofigma.webp)
+![HandyFix Logo](assets/images/docs/logoheader.webp) 
+
+![HandyFix Logo](assets/images/docs/logofooter.webp)
 
 **Images**
 
@@ -180,6 +183,8 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 ## Features
 
 ## Future features
+
+## Testing
 
 ## Deployment
 
