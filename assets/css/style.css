@@ -26,8 +26,8 @@ nav {
 
 #logoimage {
     float:left;
-    width: 10%;
-    border-radius: 50%;
+    width: 15%;
+    padding: 5px;
 }
 
 #logo {
@@ -39,6 +39,10 @@ nav {
     font-size: 27px;
     color: #262121;
     font-weight: 600;
+}
+
+.nav-brand {
+    width: 79%;
 }
 
 #navmenu {
@@ -617,7 +621,6 @@ footer {
 
 .logo-image {
     width: 25%;
-    border-radius: 50%;
 }
 
 .logo-brand {
@@ -680,6 +683,41 @@ footer {
 
 .footer-p a:visited {
     color: #262121;
+}
+
+/*Animation*/
+
+.animation-slide-left{
+    animation-name: slide-left;
+    animation-duration: 2s;
+}
+
+.animation-slide-top {
+    animation-name: slide-top;
+    animation-duration: 2s;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(-200%);
+    }
+    
+    to {
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes slide-top {
+    from {
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
 }
 
 /*Media Queries*/
@@ -754,6 +792,10 @@ footer {
         margin: 12px;
     }
 
+    #logoimage {
+        width: 10%;
+    }
+
     .logo-image {
         width: 15%;
     }
@@ -764,6 +806,10 @@ footer {
     .logo-brand {
         margin-top:0;
     }   
+
+    .nav-brand span {
+        display: none;
+    }
 }
 
 /*Tablet*/
@@ -835,7 +881,7 @@ footer {
     }
 
     .logo-image {
-        width: 25%;
+        width: 20%;
         margin-top: 25%;
     }
 
@@ -892,6 +938,10 @@ footer {
 
     #logo {
         font-size: 40px;
+    }
+
+    .nav-brand {
+        width: 49%;
     }
 
     .cover-text {
