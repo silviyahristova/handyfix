@@ -87,6 +87,15 @@ nav {
     font-weight: 800;
 }
 
+.dropdown-menu {
+    background-color: #f79a36;
+    border: 1px solid #262121;
+}
+
+.dropdownmenulist {
+    float: none;
+}
+
 /*Styling hero section*/
 
 .hero {
@@ -946,6 +955,10 @@ footer {
         width: 49%;
     }
 
+    .dropdown-link {
+        text-align: left;
+    }
+    
     .cover-text {
         top: 15%;
         left: 17%;
