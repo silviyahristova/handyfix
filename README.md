@@ -1,6 +1,6 @@
 # HandyFix
 
-<!--add mock up picture here-->
+![HandyFix Responsive Mock-up](assets/images/docs/mock-up.png)
 
 ---
 
@@ -159,9 +159,12 @@ The fonts that will be used in the website will be imported from [Google Fonts](
 
 The logo is created using Figma design tool. The colors are choosen from the palette for the website. This will help users connect the logo with the colors of the company and website. Th symbol is related to the purpose of the website.
 
+<details><summary>Logo images</summary>
+
 ![HandyFix Logo](assets/images/docs/logoheader.webp) 
 
 ![HandyFix Logo](assets/images/docs/logofooter.webp)
+</details>
 
 **Images**
 
@@ -170,6 +173,8 @@ The images on the pages were chosen to be relevant to the content of the page. A
 **Icons**
 
 The icons that will be used are from [Font Awesome](https://fontawesome.com/) website. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. Icons for the services are carefully chosen to be semantic relevance to represent concepts. They help users quickly understand and navigate throughout the website. The icons on the footer used to identify the opening hours, email and telephone number are all easily appealing on the eye for the user.
+
+[Back to top](#table-of-content)
 
 ## Technologies Used
 
@@ -180,11 +185,67 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 ### Tools
 
++ [Bootstrap 5.2](https://getbootstrap.com/)
+    + used to create the structure and layout of the website, making it responsive on all devices.
++ [Google Fonts](https://fonts.google.com/)
+    + used to get the links to the fonts that are put in the head of the html pages. These fonts are then used throughout the website.
++ [Font Awesome](https://fontawesome.com/)
+    + used to add icons to the project.
++ [GitHub](https://github.com/)
+    + used as a repository and to host the full project.
++ [GitPod](https://www.gitpod.io/)
+    + used IDE to develop the a whole site.
++ [Figma](https://www.figma.com/)
+    + used to create the wireframes and design layout for the project.
++ [Canva](https://www.canva.com/)
+    + used to create the logo image for the project.
++ [Pexels](https://www.pexels.com/)
+    + used to source images and video that would be used within the website.
++ [Adobe Images](https://stock.adobe.com/uk/)
+    + used to source images that would be used within the website.
++ [Freepik](https://www.freepik.com/)
+    + used to source images that would be used within the website.
++ [VideoSmaller](https://www.videosmaller.com/)
+    + used to compress the video size.
++ [Pixelied](https://pixelied.com/convert/)
+    + used to convert PNG and JPG images to WEBP format images.
++ [Favicon](https://favicon.io/)
+    + used to create the favicon for the website.
++ [Color-hex](https://www.color-hex.com/)
+    + was used to create the colour palette that was used through the website.
++ [Make Tints and Shades](https://maketintsandshades.com/)
+    + used to create the tints and shades from the main colour palette for use on the whole site.
++ [Grammarly](https://app.grammarly.com/)
+    + used to check spelling, grammar and punctuation in the content of the website.
++ [Responsive Image Linter](https://chromewebstore.google.com/detail/responsive-image-linter/mnddginionlghpblkimpdalcecpnbjln?pli=1)
+    + used to test responsive images and provide suggestions for the sizes attribute.
++ [WebAIM](https://webaim.org/resources/contrastchecker/)
+    + used to check the color contrast.
++ [WAVE Web Accessibility](https://wave.webaim.org/)
+    + used to make web content more accessible to individuals with disabilities.
++ [MDN Web Docs](https://developer.mozilla.org/en-US/)
+    + used for instant help resource for developers, by developers.
++ [W3School](https://www.w3schools.com/)
+    + used for HTML, CSS and Bootstrap syntax and tutorials.
++ [Stack Overflow](https://stackoverflow.com/)
+    + used for finding the solution to problem during coding.
++ [Mock-up Image](https://ui.dev/amiresponsive)
+    + used to create the responsive mock-up image that is at the beginning of the readme file.
++ [Google Dev Tools](https://developer.chrome.com/docs/devtools)
+    + used to test features, responsiveness and to troubleshoot.
++ [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template)
+    + used to generate the workspace for the project.
+
+[Back to top](#table-of-content)
 ## Features
 
 ## Future features
 
 ## Testing
+
+Please refer to [**here**](TESTING.md) for more information on testing HandyFix.
+
+[Back to top](#table-of-content)
 
 ## Deployment
 
@@ -225,3 +286,12 @@ The project will now be cloned locally for you to use.
 ### Media
 
 ## Acknowledgements
+
+This project is for educational purpose and was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the Code Institute. I would like to thank 
+
+* My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance, support and suggestions during the project.
+* Pasquale Fasulo at Bristol City College for his understanding, guidance and feedbacks throughout the project.
+* The whole team at [Code Institute](https://codeinstitute.net/) for their teaching and support.
+* Slack Community for the help, advices and support. 
+* My husband for continues support.
+
