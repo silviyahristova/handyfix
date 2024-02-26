@@ -1,6 +1,11 @@
 # HandyFix
 
-![HandyFix Responsive Mock-up](assets/images/docs/mock-up.png)
+![HandyFix Responsive Mock-up](assets/images/docs/mock-up-white.png)
+
+#### **By Silviya Hristova**
+[Click here to view the live web application](https://silviyahristova.github.io/handyfix/)
+
+This is the documentation for HandyFix’s website. It has been built using HTML5 & CSS3 for educational purposes as part of Code Institute’s Level 5 Diploma in Web Application Development.
 
 ---
 
@@ -24,8 +29,6 @@
   * [**Content**](#content)
   * [**Media**](#media)
 * [**Acknowledgements**](#acknowledgements)
-
-
 
 ## About
 
@@ -162,7 +165,6 @@ The logo is created using Figma design tool. The colors are choosen from the pal
 <details><summary>Logo images</summary>
 
 ![HandyFix Logo](assets/images/docs/logoheader.webp) 
-
 ![HandyFix Logo](assets/images/docs/logofooter.webp)
 </details>
 
@@ -188,7 +190,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 + [Bootstrap 5.2](https://getbootstrap.com/)
     + used to create the structure and layout of the website, making it responsive on all devices.
 + [Google Fonts](https://fonts.google.com/)
-    + used to get the links to the fonts that are put in the head of the html pages. These fonts are then used throughout the website.
+    + used to get the links to the fonts that are in the head of the html pages. These fonts are then used throughout the website.
 + [Font Awesome](https://fontawesome.com/)
     + used to add icons to the project.
 + [GitHub](https://github.com/)
@@ -229,7 +231,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
     + used for HTML, CSS and Bootstrap syntax and tutorials.
 + [Stack Overflow](https://stackoverflow.com/)
     + used for finding the solution to problem during coding.
-+ [Mock-up Image](https://ui.dev/amiresponsive)
++ [Mock-up Image](https://amiresponsive.blogspot.com/)
     + used to create the responsive mock-up image that is at the beginning of the readme file.
 + [Google Dev Tools](https://developer.chrome.com/docs/devtools)
     + used to test features, responsiveness and to troubleshoot.
@@ -283,7 +285,78 @@ The project will now be cloned locally for you to use.
 
 ### Content
 
+* Some contents for this project have been inspired by [Handyman Express](https://www.handymanexpress.co.uk/), [Handy Squad](https://www.handysquad.com/), [Serviceteam](https://serviceteam.co.uk/), [Handy Tec](https://handy-tec.com/) and [Southwark Handyman Services](https://www.southwarkhandyman.co.uk/) and modified for my use.
+
 ### Media
+
+#### Images
+
+All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepik](https://www.freepik.com/) and [Adobe Stock](https://stock.adobe.com/uk/).
+* Home Page
+    * Hero image: Adobe Stock Library
+    * Team images
+        * Image 1: Adobe Stock Library
+        * Image 2: [Photo by serhii_bobyk from Freepik](https://www.freepik.com/free-photo/mature-businessman-constructionist-smiling-isolated-white_9437573.htm)
+        * Image 3: [Photo by gpointstudio from Freepik](https://www.freepik.com/free-photo/portrait-handsome-construction-worker_12752449.htm)
+        * Image 4: [Photo by valuavitaly from Freepik](https://www.freepik.com/free-photo/portrait-smiling-handyman-with-tools-isolated-white-wall_11994052.htm)
+    * Review images
+        * Image 1: [Photo by nappy from Pexels](https://www.pexels.com/photo/smiling-man-wearing-black-snapback-cap-and-black-crew-neck-shirt-936090/)
+        * Image 2: [Photo by Pixabay from Pexels](https://www.pexels.com/photo/woman-wearing-black-spaghetti-strap-top-415829/)
+        * Image 3: [Photo by Pixabay from Pexels](https://www.pexels.com/photo/man-smiling-behind-wall-220453/)
+* Service page
+    * Hero image: Adobe Stock Library
+    * Service images 
+        * Image 1: [Photo by Emmanuel Ikwuegbu from Pexels](https://www.pexels.com/photo/an-electrician-leaning-near-the-fuse-box-8005400/)
+        * Image 2: [Photo by Karolina Grabowska from Pexels](https://www.pexels.com/photo/stainless-steel-faucet-mounted-on-ceramic-tiles-8925979/)
+        * Image 3: [Photo by Muhammad Tanvir from Pexels](https://www.pexels.com/photo/a-modern-kitchen-design-with-a-kitchen-island-18285876/)
+        * Image 4: [Photo by Pixabay from Pexels](https://www.pexels.com/photo/person-holding-paintbrush-221027/)
+        * Image 5: [Photo by Athena from Pexels](https://www.pexels.com/photo/tools-and-paper-instruction-for-furniture-assembly-5805491/)
+        * Image 6: [Photo by Binyamin Mellish from Pexels](https://www.pexels.com/photo/house-lights-turned-on-106399/)
+        * Image 7: [Photo by Ksenia Chernaya from Pexels](https://www.pexels.com/photo/handyman-installing-window-frame-with-drill-in-house-5691544/)
+        * Image 8: [Photo by La Miko from Pexels](https://www.pexels.com/photo/person-holding-the-door-3615723/)
+    * Gallery images
+        * Image 1: Adobe Stock Library
+        * Image 2: Adobe Stock Library
+        * Image 3: Adobe Stock Library
+        * Image 4: [Photo by Curtis Adams from Pexels](https://www.pexels.com/photo/a-modern-bathroom-15668078/)
+        * Image 5: [Photo by Curtis Adams from Pexels](https://www.pexels.com/photo/empty-room-in-house-16641362/)
+        * Image 6: [Photo by Max Rahubovskiy from Pexels](https://www.pexels.com/photo/stylish-kitchen-with-flower-on-table-7031759/)
+        * Image 7: [Photo by Vecislavas Popa from Pexel](https://www.pexels.com/photo/beige-couch-1571457/)
+        * Image 8: [Photo by Curtis Adams from Pexels](https://www.pexels.com/photo/brown-4-blade-ceiling-fan-and-wooden-flooring-3990588/)
+* Contact page
+     * Hero image: [Photo by Roger Brown from Pexels](https://www.pexels.com/photo/person-holding-wrench-5534767/)
+* Success page
+     * Hero image: Adobe Stock Library
+
+* Some of the images used for the website are from Adobe Stock Library. They are licensed and can be found on the following link https://shared-assets.adobe.com/link/28f9f1e4-2d78-44ac-5263-f9f999a4974b/.
+
+#### Video
+
+* [Video by Kindel Media from Pexels](https://www.pexels.com/video/video-of-a-house-interior-7578540/)
+
+### Code
+
+* [Bootstrap 5](https://getbootstrap.com/): Boostrap library used throughout the project for layout and responsiveness using the Bootstrap Grid System. Also used for Navbar and dropdown menu in the Navbar, and in Price section for price cards.
+
+* [Favicon.io](https://favicon.io/): Used to create the site Favicon and provided the code in the head of all pages.
+
+* [Font Awesome](https://fontawesome.com/): Used to add icons to the project and provided the stylesheet link in the head of all pages.
+
+* [Google Fonts](https://fonts.google.com/): Used to get the links to the fonts that are in the head of the html pages.
+
+* [Image Hover Overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp): Used for Meet the team section in home page. I learnt how to create image overlay hover effects.
+
+* [Responsive Clients Review Design](https://www.geekshelp.in/2023/01/responsive-clients-review-design-using-html-css.html): Found the idea and used for Testimonial section in home page.
+
+* [How to Embed Google Map in HTML](https://blog.hubspot.com/website/how-to-embed-google-map-in-html): The code for the map is provided in the Contact page to embed a map.
+
+* [CSS Animations](https://www.w3schools.com/css/css3_animations.asp): Tutorial used to learn how to create animation.
+
+### Tutorials
+
+* [W3School](https://www.w3schools.com/)
+
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 ## Acknowledgements
 
