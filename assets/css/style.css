@@ -1098,7 +1098,7 @@ footer {
 
 @media screen and (min-width:1920px) {
     body, nav {
-        max-width: 1300px;
+        max-width: 1400px;
         margin: 0 auto;
         border: 1px solid #262121;
     }
