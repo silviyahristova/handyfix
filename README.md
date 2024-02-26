@@ -253,7 +253,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 ### **Navigation Bar**
 
-<details><summary>Screenshots and videos</summary>
+<details><summary>Screenshots</summary>
 
 * Navbar and dropdown menu- desktop
 
@@ -263,11 +263,11 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 * Navbar and dropdown menu- mobile
 
-<img src="assets/images/docs/navbar-mobile.jpg" width=300px>, <img src="assets/images/docs/navbar-mobile-open.jpg" width=300px>, <img src="assets/images/docs/navbar-dropdown-mobile.jpg" width=300px>
+<img src="assets/images/docs/navbar-mobile.jpg" width=250px>, <img src="assets/images/docs/navbar-mobile-open.jpg" width=250px>, <img src="assets/images/docs/navbar-dropdown-mobile.jpg" width=250px>
 
 * Navbar Hover effect 
 
-<video src="/workspace/handyfix/assets/images/docs/navbar-hover.webm" controls></video>
+<img src="assets/images/docs/navbar-hover-effect.gif">
 
 </details>
 
@@ -275,7 +275,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 ### **Hero**
 
-<details><summary>Screenshots and videos</summary>
+<details><summary>Screenshots</summary>
 
 * Hero image Home page
 
@@ -295,9 +295,9 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 * Hero animation video
 
-<video src="/workspace/handyfix/assets/images/docs/home-hero-animation.webm" controls></video>
+<img src="assets/images/docs/hero-animation.gif">
 
-<video src="/workspace/handyfix/assets/images/docs/contact-animatiom.webm" controls></video>
+<img src="assets/images/docs/contact-hero-animation.gif">
 </details>
 
 * Each page features a hero image with the title of the page as a text header. All hero images, text and buttons are responsive. On the home page and contact page title is animated to capture the user attention and to call-to-action. Home hero title has two links also to call-to-action and to encourage users to click on any of them.
@@ -355,7 +355,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 ### **About**
 
-<details><summary>Screenshots and videos</summary>
+<details><summary>Screenshots</summary>
 
 * About us - desktop
 
@@ -367,14 +367,14 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 * About us - Meet the team- image hover overlay
 
-<video src="/workspace/handyfix/assets/images/docs/about-hover-overlay.webm" controls></video>
+<img src="assets/images/docs/image-hover-overlay.gif">
 </details>
 
 * The about us section is named "Why choose our company for your home repairs?" and contains simple layout which features the section header, a few paragraphs of text,icons with key factor about the company and Meet our expert team section. The information in the section is about the company - who are they,what to expect and what is their mission. Meet our expect team section contains 4 images of the handyman team. When click or hover on them overlay is showing up. The text over the images contain information about each handyman - name, position, and social media links.The section is fully responsive. On smaller screens team images and icons are stacking into a single column.
 
 ### **Our Services**
 
-<details><summary>Screenshots and videos</summary>
+<details><summary>Screenshots</summary>
 
 * Our Services - desktop
 
@@ -386,7 +386,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 * Our Services - hover effect
 
-<video src="/workspace/handyfix/assets/images/docs/ourservice-hover.webm" controls></video>
+<img src="assets/images/docs/ourservice-hover-effect.gif">
 </details>
 
 * Our service section is fully responsive and contains header, paragraph of text, and eight links about provided services. The links looks like a cards with hover effect when hover on them. They have identifying icons to help users with visual representation, short text which gives the users enough understanding what the service is about and call to action text "read more". The links are clickable and when clicked they will allow users to gain more information by navigating straight to the same section in service page. On the tablet screen and smaller the short text is nor appearing, but icons and the name of the service are enough recognizable for users to understand what service is provided. By clicking on the link they will gain more information from the service page. The section is responsive, stacking in to a single column on smaller screens.
