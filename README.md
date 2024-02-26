@@ -28,6 +28,9 @@ This is the documentation for HandyFix’s website. It has been built using HTML
 * [**Credits**](#credits)
   * [**Content**](#content)
   * [**Media**](#media)
+  * [**Code**](#code)
+  * [**Tutorials**](#tutorials)
+
 * [**Acknowledgements**](#acknowledgements)
 
 ## About
@@ -237,15 +240,265 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
     + used to test features, responsiveness and to troubleshoot.
 + [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template)
     + used to generate the workspace for the project.
++ [Markdown Guide](https://www.markdownguide.org/)
+    + used for Markdown syntax.
++ [Markdown Tools](https://www.markdowntools.com/)
+    + used for Markdown syntax.
++ [Scrnli Screen recorder and screen capture app](https://chromewebstore.google.com/detail/ijejnggjjphlenbhmjhhgcdpehhacaal?hl=en-US&utm_source=ext_sidebar)
+    + used to take screenshots and screen record to use in the Readme file
 
 [Back to top](#table-of-content)
+
 ## Features
+
+### **Navigation Bar**
+
+<details><summary>Screenshots and videos</summary>
+
+* Navbar and dropdown menu- desktop
+
+<img src="assets/images/docs/navbar-desktop.png">
+
+<img src="assets/images/docs/navbar-dropdown-desktop.png">
+
+* Navbar and dropdown menu- mobile
+
+<img src="assets/images/docs/navbar-mobile.jpg" width=300px>, <img src="assets/images/docs/navbar-mobile-open.jpg" width=300px>, <img src="assets/images/docs/navbar-dropdown-mobile.jpg" width=300px>
+
+* Navbar Hover effect 
+
+<video src="/workspace/handyfix/assets/images/docs/navbar-hover.webm" controls></video>
+
+</details>
+
+* Navbar appears on all pages and it is fully responsive. It contains the logo and the name of the brand, which links to the homepage. On tablet screens and smaller only logo appears and a menu toggle icon. Navbar also has links to all main pages and section on the website. The active page, that the user is on, is highlighted. There is a hover effect on the nav links. The service link has a dropdown menu and the users can navigate easily to the service they are looking for.
+
+### **Hero**
+
+<details><summary>Screenshots and videos</summary>
+
+* Hero image Home page
+
+<img src="assets/images/docs/hero-homepage-desktop.png">
+
+* Hero image Service page
+
+<img src="assets/images/docs/hero-service-desktop.png">
+
+* Hero image Contact page
+
+<img src="assets/images/docs/hero-contact-desktop.png">
+
+* Hero image Success page
+
+<img src="assets/images/docs/success-hero-desktop.png">
+
+* Hero animation video
+
+<video src="/workspace/handyfix/assets/images/docs/home-hero-animation.webm" controls></video>
+
+<video src="/workspace/handyfix/assets/images/docs/contact-animatiom.webm" controls></video>
+</details>
+
+* Each page features a hero image with the title of the page as a text header. All hero images, text and buttons are responsive. On the home page and contact page title is animated to capture the user attention and to call-to-action. Home hero title has two links also to call-to-action and to encourage users to click on any of them.
+
+### **Footer**
+
+<details><summary>Screenshots</summary>
+
+* Footer - desktop
+
+<img src="assets/images/docs/footer-desktop.png">
+
+* Footer - mobile
+
+<img src="assets/images/docs/footer-mobile.jpg" width=300px>
+</details>
+
+* The footer appears on all pages and is fully responsive. It contains the logo and the brand name. It has a contact information such as phone number, email and where the business is operating with easy to understand icons. Also has navigation links for better user experience. The footer contains links to social media pages, all of which open in a separate tab and a copyright statement for the website.
+
+### **Buttons and Links**
+
+<details><summary>Screenshots</summary>
+
+* Button
+
+<img src="assets/images/docs/submit-button.png">
+
+* Links
+
+<img src="assets/images/docs/logo-link.png">, <img src="assets/images/docs/hero-home-links.png">
+
+<img src="assets/images/docs/back-to-home-link.png">, <img src="assets/images/docs/back-to-top-link.png">, <img src="assets/images/docs/get-in-touch-link.png">, <img src="assets/images/docs/social-media-link-footer.png">
+
+<img src="assets/images/docs/quick-links-footer.png">, <img src="assets/images/docs/link-over-image.png">, <img src="assets/images/docs/link-service.png">
+</details>
+
+* The submit button has a hover effect. When clicked sending user to success page. All the links that looks like a button has a hover effect. They navigate user throught the site. The logo and the brand name are clickable and links to the home page. All social media links on the images and footer are opening in a separate tab. The service links on the home page are linked to different section on the service page.
+
+### **Favicon**
+
+<details><summary>Screenshots</summary>
+
+* Favicon - desktop
+
+<img src="assets/images/docs/favicon-tab.png">
+
+* Favicon - mobile
+
+<img src="assets/images/docs/favicon-mobile-icon.jpg" width=300px>
+</details>
+
+* The favicon is a feature to display the logo at the top tab of the site. This helps to make the site recognizable for users.
+
+### Home page
+
+### **About**
+
+<details><summary>Screenshots and videos</summary>
+
+* About us - desktop
+
+<img src="assets/images/docs/about-desktop.png">
+
+* About us - mobile
+
+<img src="assets/images/docs/about-mobile.jpg" width=300px>
+
+* About us - Meet the team- image hover overlay
+
+<video src="/workspace/handyfix/assets/images/docs/about-hover-overlay.webm" controls></video>
+</details>
+
+* The about us section is named "Why choose our company for your home repairs?" and contains simple layout which features the section header, a few paragraphs of text,icons with key factor about the company and Meet our expert team section. The information in the section is about the company - who are they,what to expect and what is their mission. Meet our expect team section contains 4 images of the handyman team. When click or hover on them overlay is showing up. The text over the images contain information about each handyman - name, position, and social media links.The section is fully responsive. On smaller screens team images and icons are stacking into a single column.
+
+### **Our Services**
+
+<details><summary>Screenshots and videos</summary>
+
+* Our Services - desktop
+
+<img src="assets/images/docs/ourservice-desktop.png">
+
+* Our Services - mobile
+
+<img src="assets/images/docs/ourservices-mobile.jpg" width=300px>
+
+* Our Services - hover effect
+
+<video src="/workspace/handyfix/assets/images/docs/ourservice-hover.webm" controls></video>
+</details>
+
+* Our service section is fully responsive and contains header, paragraph of text, and eight links about provided services. The links looks like a cards with hover effect when hover on them. They have identifying icons to help users with visual representation, short text which gives the users enough understanding what the service is about and call to action text "read more". The links are clickable and when clicked they will allow users to gain more information by navigating straight to the same section in service page. On the tablet screen and smaller the short text is nor appearing, but icons and the name of the service are enough recognizable for users to understand what service is provided. By clicking on the link they will gain more information from the service page. The section is responsive, stacking in to a single column on smaller screens.
+
+### **Testimonials**
+
+<details><summary>Screenshots</summary>
+
+* Testimonials - desktop
+
+<img src="assets/images/docs/testimonial-desktop.png">
+
+* Testimonials - mobile
+
+<img src="assets/images/docs/testimonial-mobile.jpg" width=300px>
+</details>
+
+* Testimonial section builds trust to encourage users to use the provided services and contact us. The section is responsive, stacking into a single column on smaller screens.
+
+### Service page
+
+### **Services**
+
+<details><summary>Screenshots</summary>
+
+* Services - desktop
+
+<img src="assets/images/docs/services-desktop.png">
+
+* Services - mobile
+
+<img src="assets/images/docs/service-mobile.jpg">, 
+</details>
+
+* The section contain information about each of 8th services with appropriate image. The information is in detailabout the service, what is including and what to expect. The section is fully responsive, and it is stacking into a single column with text and image under the text. On larger screen the text and images are alternating once on left side, then on right side and so on. The section is quite long and the end of the section has a back-to-top link like a button, which sends users at the top of the page where is the navbar. 
+
+### **Our prices**
+
+<details><summary>Screenshots</summary>
+
+* Our prices - desktop
+
+<img src="assets/images/docs/price-desktop.png">
+
+* Our prices - mobile
+
+<img src="assets/images/docs/price-mobile.jpg" width=300px>
+</details>
+
+* Our price section is fully responsive and contains header, paragraph of text, and four price cards. The cards provide more information about the services and hourly price of specific service. Straight after the price cards is an alert note, providing essential information about pricing, and button to contact us regarding any enquiry or questions.
+
+### **Gallery**
+
+<details><summary>Screenshots</summary>
+
+* Gallery - desktop
+
+<img src="assets/images/docs/gallery-desktop.png">
+
+* Gallery - mobile
+
+<img src="assets/images/docs/gallery-mobile.jpg" width=300px>
+</details>
+
+* The gallery section features eight images that are responsive. They have been carefully selected. The images and the video in this section helping users by giving them a positive feelings about the company and trust, that the handymen are experienced and can provide very good work.
+
+### Contact page
+
+### **Contact us**
+
+<details><summary>Screenshots</summary>
+
+* Contact us - desktop
+
+<img src="assets/images/docs/contact-details-desktop.png">
+
+* Contact us - mobile
+
+<img src="assets/images/docs/contact-details-mobile.jpg" width=300px>
+</details>
+
+* Contact us section is fully responsive and contains header, paragraph of text, and essential information about the company`s working hours, phone number and email adress, with appopriate icons for visual effect. The section is stacking in a single column on a smaller devices.
+
+### **Get in touch**
+
+<details><summary>Screenshots</summary>
+
+* Get in touch - desktop
+
+<img src="assets/images/docs/form-map-desktop.png">
+
+* Get in touch - mobile
+
+<img src="assets/images/docs/form-map-mobile.jpg" width=300px>
+
+* Get in touch - form
+
+<img src="assets/images/docs/form-required.png">
+
+</details>
+
+* The features within this section are a form that includes name, email address, message and submit button, as well as a map which providing company`s full adress. Both form and map are side by side and are fully responsive in that the map will be underneath the form on smaller screen sizes.The user will use this section to contact company about any of the services, general enquiries or quotations. They will need to fill out the form in full and then submit. This will then lead them to the success page. The users are required to fill in all section in the form to be able to successfully submit the form.
+
+[Back to top](#table-of-content)
 
 ## Future features
 
 * To include a 404.html page. 
 
-* To change the images within the gallery to use a carousel slider. This should be fully responsive allowing for different numbers of images within the carousel depending on which screen size the gallery is being viewed on.
+* To use a responsive carousel slider for Gallery section.
+
+* To use a responsive carousel slider for Testimonial section.
 
 * To add more services.
 
@@ -297,6 +550,8 @@ You can clone the repository to use locally by following these steps:
 
 The project will now be cloned locally for you to use.
 
+[Back to top](#table-of-content)
+
 ## Credits
 
 ### Content
@@ -307,7 +562,13 @@ The project will now be cloned locally for you to use.
 
 #### Images
 
-All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepik](https://www.freepik.com/) and [Adobe Stock](https://stock.adobe.com/uk/).
+All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepik](https://www.freepik.com/) and [Adobe Stock](https://stock.adobe.com/uk/). Images from Adobe Stock Library are all licensed. 
+
+<details><summary>Adobe Stock Library</summary>
+
+![Adobe Stock Library](assets/images/docs/stock.adobe-library.png) 
+</details>
+
 * Home Page
     * Hero image: Adobe Stock Library
     * Team images
@@ -344,8 +605,6 @@ All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepi
 * Success page
      * Hero image: Adobe Stock Library
 
-* Some of the images used for the website are from Adobe Stock Library. They are licensed and can be found on the following link https://shared-assets.adobe.com/link/28f9f1e4-2d78-44ac-5263-f9f999a4974b/.
-
 #### Video
 
 * [Video by Kindel Media from Pexels](https://www.pexels.com/video/video-of-a-house-interior-7578540/)
@@ -368,19 +627,24 @@ All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepi
 
 * [CSS Animations](https://www.w3schools.com/css/css3_animations.asp): Tutorial used to learn how to create animation.
 
+* [How to embed a video in Markdown](https://blog.markdowntools.com/posts/how-to-embed-a-video-in-markdown): Tutorial used to learn how to embed video in markown.
+
 ### Tutorials
 
 * [W3School](https://www.w3schools.com/)
 
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
+[Back to top](#table-of-content)
+
 ## Acknowledgements
 
 This project is for educational purpose and was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the Code Institute. I would like to thank 
 
 * My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance, support and suggestions during the project.
-* Pasquale Fasulo at Bristol City College for his understanding, guidance and feedbacks throughout the project.
+* [Pasquale Fasulo](https://www.linkedin.com/in/pasquale-fasulo-68612218a/)  at Bristol City College for his understanding, guidance and feedbacks throughout the project.
 * The whole team at [Code Institute](https://codeinstitute.net/) for their teaching and support.
-* Slack Community for the help, advices and support. 
-* My husband for continues support.
+* [Slack Community](https://code-institute-room.slack.com/ssb/redirect) for the help, advices and support. 
+* My husband Emil Stoyanov for continues support.
 
+[Back to top](#table-of-content)
