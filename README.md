@@ -243,6 +243,22 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 ## Future features
 
+* To include a 404.html page. 
+
+* To change the images within the gallery to use a carousel slider. This should be fully responsive allowing for different numbers of images within the carousel depending on which screen size the gallery is being viewed on.
+
+* To add more services.
+
+* To create separate pages for each service, providing more information and images.
+
+* To embed Trustpilot service review for real business and add an option to customer to leave a review using the HandyFix website.
+
+* To have online booking system and customer can book a handyman and service online.
+
+* To have registration form Sign-up/Login, so customer can create account.
+
+* To make the contact form fully functional with a post request and have a database to collate data for the mailing list.
+
 ## Testing
 
 Please refer to [**here**](TESTING.md) for more information on testing HandyFix.
