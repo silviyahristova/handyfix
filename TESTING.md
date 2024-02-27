@@ -18,6 +18,18 @@
 
 ## Responsiveness
 
+| **Device Tested** | **Site responsive** | **Renders as expected** | 
+|-------------------|---------------------|-------------------------|
+| Samsung Galaxy S21 Ultra|<center>Very Good<center>|<center>Yes<center>|
+| Iphone 5s/6s      |<center>Very Good<center>|<center>Yes<center>|
+| Ipad              |<center>Very Good<center>|<center>Yes<center>|
+| Samsung Galaxy Tab 3|<center>Very Good<center>|<center>Yes<center>|
+| Desktop           |<center>Very Good<center>|<center>Yes<center>|
+| Laptop            |<center>Very Good<center>|<center>Yes<center>|
+| Google Dev Tools  |<center>Very Good<center>|<center>Yes<center>|
+
+* There was no issues found regarding the responsiveness.
+
 ## Code Validation
 
 ### HTML Validation
