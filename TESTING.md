@@ -135,7 +135,7 @@
 
 * When copied the code for the map, the page were automatically translated in Bulgarian language. It was noticed at some point and then were added the new code.
 
-<details><summary>Safari displaying images</summary>
+<details><summary>Safari is not displaying images</summary>
 
 <img src="assets/images/testing/iphone-check.jpg">
 
@@ -147,8 +147,126 @@
 
 * When checked on the real devices Iphone 5, Iphone 6 and Ipad, all the images did not display. After research about the WEbP format images compatibility, was found that only from IOS 14 and up support this format. The solution were found in [Stack Overflow](https://stackoverflow.com/) and was to add fallback images in different format from WEbp. Fallback images were added for all images on the website. Google Dev Tools didn`t show up this problem-there all images were working on the Iphone 5, Iphone 6 plus and Ipad.
 
+<details><summary>Contact page title</summary>
+
+<img src="assets/images/testing/heading-change-position.png">
+
+* Solution
+
+<img src="assets/images/testing/contact-position-solved.png">
+
+* Final result
+
+<img src="assets/images/testing/contact-position-final.png">
+
+</details>
+
+* After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or remove from media queries as appropriate.
+
 ## Performance
 
 ## Accessibility
 
-###
+### Color contrast
+
+* The main colors, used for the website, have very good contrast. They were tested with [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/).
+
+<img src="assets/images/testing/contrast1.png" width=250px>, <img src="assets/images/testing/contrast2.png" width=250px>, <img src="assets/images/testing/contrast3.png" width=250px>
+
+### WAVE Web Accessibility Evaluation Tools
+
+* On all pages same alert came up - that there is more than 1 redundant link. This is, because some links are navigating users to the same page, but was made to be user friendly and intuitive as possible for the user. No further action was taken.
+
+* On service page alert came up about the video. The video does not have audio and does not need synchronized captioning and a transcript. No further action was taken.
+
+<details><summary>Home page</summary>
+
+* First test
+
+<img src="assets/images/testing/wave-home.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-home-alerts.png">
+
+* Solution
+
+First solution was to change p to h4 to the four images of the section. Second solution was to change alt text to images in the testimonial section.
+
+<img src="assets/images/testing/wave-home-solution.png">
+
+<img src="assets/images/testing/wave-home-solution-2.png">
+
+<img src="assets/images/testing/wave-home-solution-3.png">
+
+<img src="assets/images/testing/wave-home-solution-4.png">
+
+* Final result
+
+<img src="assets/images/testing/wave-home-resolve.png">
+
+</details>
+
+<details><summary>Service page</summary>
+
+* First test
+
+<img src="assets/images/testing/wave-service.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-service-alerts.png">
+
+* Solution
+
+Solution was to change alt text to one image on the page.
+
+<img src="assets/images/testing/wave-service-solution1.png">
+
+* Final result
+
+<img src="assets/images/testing/wave-service-solve.png">
+
+</details>
+
+<details><summary>Contact page</summary>
+
+* First test
+
+<img src="assets/images/testing/wave-contact.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-contact-errors.png">
+
+* Solution
+
+Solution for the contrast was to change the background-color of the hero image. In case if the hero image does not load background-color will show up and it will be in very good contrast with the title color. In the form labels were empty and was missing aria-label to the input attributes. The code was fixed.
+
+<img src="assets/images/testing/wave-contact-contrast.png">
+
+<img src="assets/images/testing/contact-wave-form-solved.png">
+
+* Final result
+
+<img src="assets/images/testing/contact-wave-solved.png">
+
+</details>
+
+<details><summary>Success page</summary>
+
+* First test
+
+<img src="assets/images/testing/wave-success.png">
+
+* Solution
+
+First solution was to change p to h2 to the heading under the h1. Second solution was to change alt text for the hero image.
+
+<img src="assets/images/testing/wave-success-alerts.png">
+
+* Final result
+
+<img src="assets/images/testing/success-wave-final.png">
+
+</details>
