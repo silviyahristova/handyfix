@@ -30,6 +30,36 @@
 
 * There was no issues found regarding the responsiveness.
 
+## Performance
+
+<details><summary>Index.html</summary>
+
+<img src="assets/images/testing/home-desktop-lighthouse.png">, <img src="assets/images/testing/home-mobile-lighthouse.png">
+</details>
+
+<details><summary>Service.html</summary>
+
+<img src="assets/images/testing/service-desktop-lighthouse.png">, <img src="assets/images/testing/service-mobile-lighthouse.png">
+</details>
+
+<details><summary>Contact.html</summary>
+
+<img src="assets/images/testing/contact-desktop-lighthouse.png">, <img src="assets/images/testing/contact-mobile-lighthouse.png">
+
+* There is a warning regarding Google Map and JavaScript. No further action is taken.
+
+<img src="assets/images/testing/lighthouse-contact-issue.png">
+
+</details>
+
+<details><summary>Success.html</summary>
+
+<img src="assets/images/testing/success-desktop-lighthouse.png">, <img src="assets/images/testing/success-mobile-lighthouse.png">
+</details>
+
+*  The site was tested through Google Chrome Dev Tools - Lighthouse to check each of the pages for performance, accessibility, best practices and SEO.
+* On mobile devices the site is loading a bit slower than on large screen devices. This is due to image sizes, longer pages and large layout shifts. At the moment no further action is taken, but improvements will be made in future.
+
 ## Code Validation
 
 ### HTML Validation
@@ -186,8 +216,6 @@
 </details>
 
 * After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or remove from media queries as appropriate.
-
-## Performance
 
 ## Accessibility
 
