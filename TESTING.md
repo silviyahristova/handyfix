@@ -4,6 +4,18 @@
 
 ## Browser Compatibility
 
+| **Browser tested** | **Intended appearance** | **Intended responsiveness** | 
+|--------------------|-------------------------|-----------------------------|
+| Google Chrome      |<center>Very Good<center>|<center>Very Good<center>    |
+| Mozzila            |<center>Very Good<center>|<center>Very Good<center>    |
+| Firefox            |<center>Very Good<center>|<center>Very Good<center>    |
+| Microsoft edge     |<center>Good<center>     |<center>Good<center>         |
+| Safari*            |<center>Good<center>     |<center>Good<center>         |
+
+* On Microsoft edge hero section taking large amount of space. Does not affect the website.
+* There was issue regarding Safari browser. More details can be found [here](#resolved-bugs).
+* There was no issues found regarding the appearance and responsiveness.
+
 ## Responsiveness
 
 ## Code Validation
