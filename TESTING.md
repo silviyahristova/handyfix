@@ -1,6 +1,137 @@
 # HandyFix Testing
 
+## Table of content
+* [**Manual Testing User stories**](#manual-testing-user-stories)
+* [**Browser Compatibility**](#browser-compatibility)
+* [**Responsiveness**](#responsiveness)
+* [**Performance**](#performance)
+* [**Code Validation**](#code-validation)
+* [**Bugs**](#bugs)
+* [**Accessibility**](#accessibility)
+
 ## Manual Testing User stories
+
+### As a first-time visitor, I want to easily understand the main purpose of the site and learn more about the company.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+| Why choose our company for your home repair?(About)|Scroll down on home page and read information about the company.|user is brought to the information section about the company.|
+
+### As a first-time visitor, I want to be able to easily navigate through the site to find content.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
+|Footer| Scroll down to the bottom on any page; find quick links; click on any link.| User is exploring the website.|
+
+### As a first-time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+| Testimonials| Click on the logo; scroll down; read testimonials.| User can read feedback about the company.|
+
+### As a first-time visitor, I want to locate their social media links to determine how trusted and known they are.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+| Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
+
+### As a first-time visitor, I want to have an insight into the company and where they operate.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Home page| Click Home on navbar;scroll down to read information about the company.| User knows where the company is operating.|
+|Footer| Scroll down to the bottom on any page;see contact information.| User can see where the company is operating.|
+
+### As a first-time visitor, I want to be able to see what services they offer.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Navigation bar|Click Services on navbar;click on any service.|User can see what services are provided.|
+|Our services|Click Home on navbar;scroll down to our services;see what services are provided;click on the service.|User can see what services the company is offering|
+|Service page|Click Home; click our services button;scroll to read about the services.| User can see what services are provided.|
+
+### As a first-time visitor, I want to be able to see what the pricing is for each service or hourly.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Price|Click Price on navbar;read about the prices.| User is brought to price section.|
+
+### As a first-time visitor I want to see what is included in the price.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+||Price|Click Price on navbar;read about the prices,read the note under price cards.| User can read what is included in the price.|
+
+### As a first-time visitor I want to know how to get in touch with the company.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Contact page|Click Contact on navbar;scroll down; see the company contact information.| User can see contact details.|
+|Get in touch|Click Contact on navbar;scroll to form;fill and submit the form.| User can get in touch with the company by filling the form.|
+|Footer| Scroll down to the bottom on any page;see contact information.| User can see contact details.|
+
+### As a first-time visitor I want to see pictures of their previous project/work.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Gallery|Click Price on navbar;scroll down; see the gallery| User is brought to gallery section|
+
+### As a first-time visitor I want to see what hours the company operates at.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+||Contact page|Click Contact on navbar;scroll down; see the company`s operating hours.| User can see the company`s operating hours.|
+
+### As a first-time visitor I want to be able to see and click on the links to their social media pages.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
+
+### As a first-time visitor I want to easily navigate through the site without becoming overwhelmed with too much information.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
+
+### As a first-time visitor I want to see where the company is located.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Get in touch|Click Contact on navbar;scroll to map;see adress on the map.| User can see where the company is located.|
+
+### As an owner, I want to generate new business by getting users to contact the company.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Get in touch|Click Contact on navbar;scroll to form;fill and submit the form.| User can get in touch with the company by filling the form.|
+
+### As an owner, I want users to easily navigate through the site and at the end be confident enough to contact the company.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
+
+### As owner, I want the site to show the motto of "quality over quantity" in terms of the information that is on display.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Gallery|Click Price on navbar;scroll down; see the gallery| User is brought to gallery section|
+
+### As owner, I want to encourage users to go to our social media pages which will help boost the profile of the company.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
+
+### As owner, I want the site to be responsive so users on any platform can successfully navigate the site.
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Website| Website is tested on different devices and browsers.|User can explore the website on any device.|
+
+[Back to top](#table-of-content)
 
 ## Browser Compatibility
 
@@ -16,6 +147,8 @@
 * There was issue regarding Safari browser. More details can be found [here](#resolved-bugs).
 * There was no issues found regarding the appearance and responsiveness.
 
+[Back to top](#table-of-content)
+
 ## Responsiveness
 
 | **Device Tested** | **Site responsive** | **Renders as expected** | 
@@ -29,6 +162,8 @@
 | Google Dev Tools  |<center>Very Good<center>|<center>Yes<center>|
 
 * There was no issues found regarding the responsiveness.
+
+[Back to top](#table-of-content)
 
 ## Performance
 
@@ -59,6 +194,8 @@
 
 *  The site was tested through Google Chrome Dev Tools - Lighthouse to check each of the pages for performance, accessibility, best practices and SEO.
 * On mobile devices the site is loading a bit slower than on large screen devices. This is due to image sizes, longer pages and large layout shifts. At the moment no further action is taken, but improvements will be made in future.
+
+[Back to top](#table-of-content)
 
 ## Code Validation
 
@@ -125,6 +262,8 @@
 
 * The validation site [W3C Link Checker](https://validator.w3.org/checklink) was used to check the website for broken links. There were no broken links found, but three links were manually checked and worked as expected. They were not checked due to robots exclusion rules.
 
+[Back to top](#table-of-content)
+
 ## Bugs
 
 ### Resolved bugs
@@ -150,7 +289,6 @@
 <img src="assets/images/testing/link-add-title.png">
 
 </details>
-
 
 * When submiting the form, the user is forwarded to success page. On the code were missing title for the link and it was empty. After adding title the problem was solved.
 
@@ -216,6 +354,8 @@
 </details>
 
 * After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or remove from media queries as appropriate.
+
+[Back to top](#table-of-content)
 
 ## Accessibility
 
@@ -322,3 +462,5 @@ First solution was to change p to h2 to the heading under the h1. Second solutio
 <img src="assets/images/testing/success-wave-final.png">
 
 </details>
+
+[Back to top](#table-of-content)
