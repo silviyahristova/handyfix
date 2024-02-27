@@ -103,6 +103,10 @@ nav {
     border: 1px solid #262121;
 }
 
+.hero-background {
+    background-color: #262121;
+}
+
 #hero {
     width: 100%;
 }
@@ -506,7 +510,7 @@ video {
 
 .cover-text-contact {
     position: absolute;
-    top: 2%;
+    top: 25%;
     left: 10%;
 }
 
@@ -750,7 +754,6 @@ footer {
     }
 
     .cover-text-contact {
-        top: 2%;
         left: 10%;
     }
 }
@@ -760,10 +763,6 @@ footer {
     .cover-text {
         top: 10%;
         left: 15%;
-    }
-
-    .cover-text-contact {
-        top: 3.5%;
     }
 
     .main-title {
@@ -848,10 +847,6 @@ footer {
 
     .main-title-service {
         font-size: 3em;
-    }
-
-    .cover-text-contact {
-        top: 5%;
     }
 
     .main-title-contact {
@@ -984,10 +979,6 @@ footer {
         font-size: 4em;
     }
 
-    .cover-text-contact {
-        top: 7%;
-    }
-
     .main-title-contact {
         font-size: 4em;
     }
@@ -1070,10 +1061,6 @@ footer {
         font-size: 4em;
     }
 
-    .cover-text-contact {
-        top: 8%;
-    }
-
     .card {
         width: 24%;
     }
@@ -1089,10 +1076,6 @@ footer {
     .cover-text {
         top: 20%;
         left: 17%;
-    }
-
-    .cover-text-contact {
-        top: 10%;
     }
 }
 

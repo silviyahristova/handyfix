@@ -74,7 +74,7 @@
     </header>
 
     <section>
-        <div class="hero">
+        <div class="hero hero-background">
             <img src="assets/images/contactpage/herocontact.jpg" alt="Wrench in a hand"
             srcset="assets/images/contactpage/herocontact300.webp 300w,
             assets/images/contactpage/herocontact1010.webp 1010w,
@@ -120,11 +120,11 @@
             <div class="row g-1">
                 <div class="col-12 col-md-6 col-lg-6">
                     <form action="success.html" method="get">
-                        <label for="name"></label>
-                        <input type="text" id="name" name="full_name" placeholder="Enter your full name" autocomplete="on" required>
-                        <label for="email"></label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email address"  autocomplete="on" required>
-                        <textarea name="message" id="message" placeholder="Enter your message" rows="8" cols="30" autocomplete="on" required></textarea>
+                        <label for="name">Enter your full name</label>
+                        <input type="text" id="name" name="full_name" aria-label="Your full name" placeholder="Enter your full name" autocomplete="on" required>
+                        <label for="email">Enter your email address</label>
+                        <input type="email" id="email" name="email" aria-label="Your email address" placeholder="Enter your email address"  autocomplete="on" required>
+                        <textarea name="message" id="message" aria-label="Message" placeholder="Enter your message" rows="8" cols="30" autocomplete="on" required></textarea>
                         <input type="submit" value="Submit" class="button-submit"><a href="success.html" title="Go to success page"></a>
                     </form>
                 </div>
