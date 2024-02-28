@@ -263,11 +263,6 @@
 <details><summary>Contact.html</summary>
 
 <img src="assets/images/testing/contact-desktop-lighthouse.png">, <img src="assets/images/testing/contact-mobile-lighthouse.png">
-
-* There is a warning regarding Google Map and JavaScript. No further action is taken.
-
-<img src="assets/images/testing/lighthouse-contact-issue.png">
-
 </details>
 
 <details><summary>Success.html</summary>
@@ -528,6 +523,15 @@ First solution was to change p to h2 to the heading under the h1. Second solutio
 </details>
 
 * After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or remove from media queries as appropriate.
+
+### Unresolved bugs
+
+<details><summary>Contact page Google map</summary>
+
+* There is a warning regarding Google Map and JavaScript. The warning does not affect the website and the map. No further action is taken.
+
+<img src="assets/images/testing/lighthouse-contact-issue.png">
+</details>
 
 [Back to top](#table-of-content)
 
