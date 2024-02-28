@@ -78,7 +78,7 @@
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-||Price|Click Price on navbar;read about the prices,read the note under price cards.| User can read what is included in the price.|
+|Price|Click Price on navbar;read about the prices,read the note under price cards.| User can read what is included in the price.|
 
 </details>
 
@@ -105,7 +105,7 @@
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-||Contact page|Click Contact on navbar;scroll down; see the company`s operating hours.| User can see the company`s operating hours.|
+|Contact page|Click Contact on navbar;scroll down; see the company`s operating hours.| User can see the company`s operating hours.|
 
 </details>
 
@@ -291,26 +291,10 @@
 
 <details><summary>Service.html</summary>
 
-<img src="assets/images/testing/service-html-validation.png">
-
-* Solution 
-
-<img src="assets/images/testing/service-edit-video.png">
-
-* Final Validation
-
 <img src="assets/images/testing/service-final-validation.png">
 </details>
 
 <details><summary>Contact.html</summary>
-
-<img src="assets/images/testing/contact-page-code-validation.png">
-
-* Solution 
-
-<img src="assets/images/testing/contact-page-resolve-code.png">
-
-* Final Validation
 
 <img src="assets/images/testing/contact-page-final-validation.png">
 </details>
@@ -321,7 +305,8 @@
 
 </details>
 
-* The validation site [W3C HTML Validator](https://validator.w3.org/nu/) was used to validate the HTML. Some errors were found and resolved.
+* The validation site [W3C HTML Validator](https://validator.w3.org/nu/) was used to validate the HTML. 
+* Some errors were found and resolved. More details can be found [here](#resolved-bugs).
 
 ### CSS Validation
 
@@ -333,7 +318,8 @@
 
 </details>
 
-* The validation site [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS. No errors were found. There were 3 warnings regarding vendor extensions, but doesn`t affect the website.
+* The validation site [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS.
+* No errors were found. There were 3 warnings regarding vendor extensions, but doesn`t affect the website.
 
 ### Link Checker
 
@@ -343,13 +329,118 @@
 
 </details>
 
-* The validation site [W3C Link Checker](https://validator.w3.org/checklink) was used to check the website for broken links. There were no broken links found, but three links were manually checked and worked as expected. They were not checked due to robots exclusion rules.
+* The validation site [W3C Link Checker](https://validator.w3.org/checklink) was used to check the website for broken links.
+* There were no broken links found, but three links were manually checked and worked as expected. They were not checked due to robots exclusion rules.
 
 [Back to top](#table-of-content)
 
 ## Bugs
 
 ### Resolved bugs
+
+<details><summary>HTML validation errors</summary>
+
+#### Service page
+
+* Errors
+
+<img src="assets/images/testing/service-html-validation.png">
+
+* Solution 
+
+Solution was to remove the loading attribute from video element and to remove control value. Instead was added preload attribute with value none, so the video will not autoplay.
+
+<img src="assets/images/testing/service-edit-video.png">
+
+#### Contact page
+
+* Errors
+
+<img src="assets/images/testing/contact-page-code-validation.png">
+
+* Solution 
+
+Solution was to close two elements in the body.
+
+<img src="assets/images/testing/contact-page-resolve-code.png">
+
+</details>
+
+<details><summary>WAVE Web Accessibility Errors</summary>
+
+#### Home page
+
+* First test
+
+<img src="assets/images/testing/wave-home.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-home-alerts.png">
+
+* Solution
+
+First solution was to change p to h4 to the four images of the section. Second solution was to change alt text to images in the testimonial section.
+
+<img src="assets/images/testing/wave-home-solution.png">
+
+<img src="assets/images/testing/wave-home-solution-2.png">
+
+<img src="assets/images/testing/wave-home-solution-3.png">
+
+<img src="assets/images/testing/wave-home-solution-4.png">
+
+#### Service page
+
+* First test
+
+<img src="assets/images/testing/wave-service.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-service-alerts.png">
+
+* Solution
+
+Solution was to change alt text to one image on the page.
+
+<img src="assets/images/testing/wave-service-solution1.png">
+
+#### Contact page
+
+* First test
+
+<img src="assets/images/testing/wave-contact.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-contact-errors.png">
+
+* Solution
+
+Solution for the contrast was to change the background-color of the hero image. In case if the hero image does not load background-color will show up and it will be in very good contrast with the title color. In the form labels were empty and was missing aria-label to the input attributes. The code was fixed.
+
+<img src="assets/images/testing/wave-contact-contrast.png">
+
+<img src="assets/images/testing/contact-wave-form-solved.png">
+
+#### Success page
+
+* First test
+
+<img src="assets/images/testing/wave-success.png">
+
+* Alerts
+
+<img src="assets/images/testing/wave-success-alerts.png">
+
+* Solution
+
+First solution was to change p to h2 to the heading under the h1. Second solution was to change alt text for the hero image.
+
+<img src="assets/images/testing/success-wave-solutionl.png">
+
+</details>
 
 <details><summary>Autocomplete attribute in form</summary>
 
@@ -450,33 +541,7 @@
 
 ### WAVE Web Accessibility Evaluation Tools
 
-* On all pages same alert came up - that there is more than 1 redundant link. This is, because some links are navigating users to the same page, but was made to be user friendly and intuitive as possible for the user. No further action was taken.
-
-* On service page alert came up about the video. The video does not have audio and does not need synchronized captioning and a transcript. No further action was taken.
-
 <details><summary>Home page</summary>
-
-* First test
-
-<img src="assets/images/testing/wave-home.png">
-
-* Alerts
-
-<img src="assets/images/testing/wave-home-alerts.png">
-
-* Solution
-
-First solution was to change p to h4 to the four images of the section. Second solution was to change alt text to images in the testimonial section.
-
-<img src="assets/images/testing/wave-home-solution.png">
-
-<img src="assets/images/testing/wave-home-solution-2.png">
-
-<img src="assets/images/testing/wave-home-solution-3.png">
-
-<img src="assets/images/testing/wave-home-solution-4.png">
-
-* Final result
 
 <img src="assets/images/testing/wave-home-resolve.png">
 
@@ -484,45 +549,11 @@ First solution was to change p to h4 to the four images of the section. Second s
 
 <details><summary>Service page</summary>
 
-* First test
-
-<img src="assets/images/testing/wave-service.png">
-
-* Alerts
-
-<img src="assets/images/testing/wave-service-alerts.png">
-
-* Solution
-
-Solution was to change alt text to one image on the page.
-
-<img src="assets/images/testing/wave-service-solution1.png">
-
-* Final result
-
 <img src="assets/images/testing/wave-service-solve.png">
 
 </details>
 
 <details><summary>Contact page</summary>
-
-* First test
-
-<img src="assets/images/testing/wave-contact.png">
-
-* Alerts
-
-<img src="assets/images/testing/wave-contact-errors.png">
-
-* Solution
-
-Solution for the contrast was to change the background-color of the hero image. In case if the hero image does not load background-color will show up and it will be in very good contrast with the title color. In the form labels were empty and was missing aria-label to the input attributes. The code was fixed.
-
-<img src="assets/images/testing/wave-contact-contrast.png">
-
-<img src="assets/images/testing/contact-wave-form-solved.png">
-
-* Final result
 
 <img src="assets/images/testing/contact-wave-solved.png">
 
@@ -530,20 +561,12 @@ Solution for the contrast was to change the background-color of the hero image. 
 
 <details><summary>Success page</summary>
 
-* First test
-
-<img src="assets/images/testing/wave-success.png">
-
-* Solution
-
-First solution was to change p to h2 to the heading under the h1. Second solution was to change alt text for the hero image.
-
-<img src="assets/images/testing/wave-success-alerts.png">
-
-* Final result
-
 <img src="assets/images/testing/success-wave-final.png">
 
 </details>
 
-[Back to top](#table-of-content)
+* On all pages same alert came up - that there is more than 1 redundant link. This is, because some links are navigating users to the same page, but was made to be user friendly and intuitive as possible for the user. No further action was taken.
+
+* On service page alert came up about the video. The video does not have audio and does not need synchronized captioning and a transcript. No further action was taken.
+
+Back to [**README.md**](README.md#testing)
