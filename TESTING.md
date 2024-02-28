@@ -1,7 +1,7 @@
 # HandyFix Testing
 
 ## Table of content
-* [**Manual Testing User stories**](#manual-testing-user-stories)
+* [**Manual Testing**](#manual-testing)
 * [**Browser Compatibility**](#browser-compatibility)
 * [**Responsiveness**](#responsiveness)
 * [**Performance**](#performance)
@@ -9,41 +9,54 @@
 * [**Bugs**](#bugs)
 * [**Accessibility**](#accessibility)
 
-## Manual Testing User stories
+## Manual Testing
 
-### As a first-time visitor, I want to easily understand the main purpose of the site and learn more about the company.
+### User stories
 
-| **Feature** | **Test case** | **Outcome** |
-|-------------|---------------|-------------|
-| Why choose our company for your home repair?(About)|Scroll down on home page and read information about the company.|user is brought to the information section about the company.|
-
-### As a first-time visitor, I want to be able to easily navigate through the site to find content.
+<details><summary>As a first-time visitor, I want to easily understand the main purpose of the site and learn more about the company.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-|Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
-|Footer| Scroll down to the bottom on any page; find quick links; click on any link.| User is exploring the website.|
+| Why choose our company for your home repair?(About)| Scroll down on home page and read information about the company.| User is brought to the information section about the company.|
 
-### As a first-time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.
+</details>
+
+<details><summary>As a first-time visitor, I want to be able to easily navigate through the site to find content.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
+| Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
+| Footer| Scroll down to the bottom on any page; find quick links; click on any link.| User is exploring the website.|
+
+</details>
+
+<details><summary>As a first-time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.</summary>
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+| Navigation bar|Click services; click testimonial| User is brought to testimonial section|
 | Testimonials| Click on the logo; scroll down; read testimonials.| User can read feedback about the company.|
 
-### As a first-time visitor, I want to locate their social media links to determine how trusted and known they are.
+</details>
+
+<details><summary>As a first-time visitor, I want to locate their social media links to determine how trusted and known they are.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 | Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
 
-### As a first-time visitor, I want to have an insight into the company and where they operate.
+</details>
+
+<details><summary>As a first-time visitor, I want to have an insight into the company and where they operate.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Home page| Click Home on navbar;scroll down to read information about the company.| User knows where the company is operating.|
 |Footer| Scroll down to the bottom on any page;see contact information.| User can see where the company is operating.|
 
-### As a first-time visitor, I want to be able to see what services they offer.
+</details>
+
+<details><summary>As a first-time visitor, I want to be able to see what services they offer.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
@@ -51,19 +64,25 @@
 |Our services|Click Home on navbar;scroll down to our services;see what services are provided;click on the service.|User can see what services the company is offering|
 |Service page|Click Home; click our services button;scroll to read about the services.| User can see what services are provided.|
 
-### As a first-time visitor, I want to be able to see what the pricing is for each service or hourly.
+</details>
+
+<details><summary>As a first-time visitor, I want to be able to see what the pricing is for each service or hourly.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Price|Click Price on navbar;read about the prices.| User is brought to price section.|
 
-### As a first-time visitor I want to see what is included in the price.
+</details>
+
+<details><summary>As a first-time visitor I want to see what is included in the price.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 ||Price|Click Price on navbar;read about the prices,read the note under price cards.| User can read what is included in the price.|
 
-### As a first-time visitor I want to know how to get in touch with the company.
+</details>
+
+<details><summary>As a first-time visitor I want to know how to get in touch with the company.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
@@ -71,65 +90,129 @@
 |Get in touch|Click Contact on navbar;scroll to form;fill and submit the form.| User can get in touch with the company by filling the form.|
 |Footer| Scroll down to the bottom on any page;see contact information.| User can see contact details.|
 
-### As a first-time visitor I want to see pictures of their previous project/work.
+</details>
+
+<details><summary>As a first-time visitor I want to see pictures of their previous project/work.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
+|Navigation bar|Click services;click gallery|User is brought to gallery section|
 |Gallery|Click Price on navbar;scroll down; see the gallery| User is brought to gallery section|
 
-### As a first-time visitor I want to see what hours the company operates at.
+</details>
+
+<details><summary>As a first-time visitor I want to see what hours the company operates at.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 ||Contact page|Click Contact on navbar;scroll down; see the company`s operating hours.| User can see the company`s operating hours.|
 
-### As a first-time visitor I want to be able to see and click on the links to their social media pages.
+</details>
+
+<details><summary>As a first-time visitor I want to be able to see and click on the links to their social media pages.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
 
-### As a first-time visitor I want to easily navigate through the site without becoming overwhelmed with too much information.
+</details>
+
+<details><summary>As a first-time visitor I want to easily navigate through the site without becoming overwhelmed with too much information.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
 
-### As a first-time visitor I want to see where the company is located.
+</details>
+
+<details><summary>As a first-time visitor I want to see where the company is located.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Get in touch|Click Contact on navbar;scroll to map;see adress on the map.| User can see where the company is located.|
 
-### As an owner, I want to generate new business by getting users to contact the company.
+</details>
+
+<details><summary>As an owner, I want to generate new business by getting users to contact the company.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Get in touch|Click Contact on navbar;scroll to form;fill and submit the form.| User can get in touch with the company by filling the form.|
 
-### As an owner, I want users to easily navigate through the site and at the end be confident enough to contact the company.
+</details>
+
+<details><summary>As an owner, I want users to easily navigate through the site and at the end be confident enough to contact the company.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
 
-### As owner, I want the site to show the motto of "quality over quantity" in terms of the information that is on display.
+</details>
+
+<details><summary>As owner, I want the site to show the motto of "quality over quantity" in terms of the information that is on display.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Gallery|Click Price on navbar;scroll down; see the gallery| User is brought to gallery section|
 
-### As owner, I want to encourage users to go to our social media pages which will help boost the profile of the company.
+</details>
+
+<details><summary>As owner, I want to encourage users to go to our social media pages which will help boost the profile of the company.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
 
-### As owner, I want the site to be responsive so users on any platform can successfully navigate the site.
+</details>
+
+<details><summary>As owner, I want the site to be responsive so users on any platform can successfully navigate the site.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Website| Website is tested on different devices and browsers.|User can explore the website on any device.|
+
+</details>
+
+### Website
+
+<details><summary>Buttons and links</summary>
+
+| **Feature** | **Test case** | **Outcome** |
+|-------------|---------------|-------------|
+|Logo|Click logo|User is brought to the home page|
+|Navbar/home| Click home|User is brought to the home page|
+|Navbar/about|Click about|User is brought to home page section about|
+|Navbar/services/...|Click services,click relevant service link|User is brougth to the choosen service on service page|
+|Navbar/price|Click price|User is brought to service page section price|
+|Navbar/contacts|Click contacts|User is brought to contact page|
+|Our services|Click button our services|User is brought to service page|
+|Get in touch|Click button get in touch|User is brought to contact page|
+|Meet the team images|Move the mouse over the image|User will see personal information about the handyman|
+|Facebook icon|Click icon|New tab is opening and user is brought to Facebook|
+|Twitter icon|Click icon|New tab is opening and user is brought to Twitter|
+|LinkedIn icon|Click icon|New tab is opening and user is brought to LinkedIn|
+|Contact word in bold|Click word|User is brought to contact page|
+|Electrical service|Click anywhere on the card electrical|User is brought to electrical service on service page|
+|Plumbing service|Click anywhere on the card plumbing|User is brought to plumbing service on service page|
+|Kitchen and bathroom|Click anywhere on the card kitchen and bathroom|User is brought to kitchen and bathroom service on service page|
+|Painting and decorating|Click anywhere on the card painting and decorating|User is brought to painting and decorating service on service page|
+|Assembly service|Click anywhere on the card assembly|User is brought to assembly service on service page|
+|Smart home|Click anywhere on the card smart home|User is brought to smart home service on service page|
+|Windows and blinds|Click anywhere on the card windows and blinds|User is brought to windows and blinds service on service page|
+|Doors|Click anywhere on the card doors|User is brought to doors service on service page|
+|Footer/Logo|Click logo|User is brought to the home page|
+|Instagram icon|Click icon|New tab is opening and user is brought to Instagram|
+|Footer/home|Click home| User is brought to the home page|
+|Footer/about|Click about| User is brought to home page section about|
+|Footer/services|Click services|User is brought to service page|
+|Footer/price|Click price| User is brought to service page section price|
+|Footer/contacts|Click contacts|User is brought to contact page|
+|Back to top button|Click button|User is brought to top of the service page|
+|Contact form|Submit an empty form|Error signalling required fields|
+|Contact form|Submit filled form|User is brought to success page|
+|Back to our home page|click button|User is brought to the home page|
+
+</details>
 
 [Back to top](#table-of-content)
 
