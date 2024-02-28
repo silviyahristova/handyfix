@@ -93,7 +93,7 @@ Click [**here**](https://silviyahristova.github.io/handyfix/) to view the live w
 
 This project is to design and create a static website that is done mainly through HTML and CSS.
 
-The main goal of the website is to get potential customers to use one or more of the provided services. The site will help users learn about the range of services offered by the handyman, including repairs, maintenance, and installations. This helps users understand if the handyman can address their specific needs. The website.
+The main goal of the website is to get potential customers to use one or more of the provided services. The site will help users learn about the range of services offered by the handyman, including repairs, maintenance, and installations. This will help users to understand if the handyman can address their specific needs.
 
 By making the site fully responsive, the site aims to be easily accessible no matter which platform the user is viewing the site on.
 
@@ -101,7 +101,7 @@ By making the site fully responsive, the site aims to be easily accessible no ma
 
 The main features that will be implemented into the website will be included on four separate pages. The design of the website should look professional and trustworthy at the same time simple and eye-catching. In help to create this design will be carefully selected color palette and fonts.
 
-The site will have an "About section" where users can learn some more information about the company. This will help build more trust in users. We will provide contact details, making it easy for users to get in touch. We will showcase previous work through photos, testimonials, and a video. This will help users gauge the handyman`s skill and quality of work. Users can find out if the handymen serves their geographical area, ensuring that they are accessible to potential customers. The website will show pricing information. This transparency can help users budget for their home improvement projects.
+The site will have an "About section" where users can learn some more information about the company. This will help build more trust in users. It will provide contact details, making it easy for users to get in touch. It will showcase previous work through photos, testimonials, and a video. This will help users gauge the handyman`s skill and quality of work. Users can find out if the handymen serves their geographical area, ensuring that they are accessible to potential customers. The website will show pricing information. This transparency can help users budget for their home improvement projects.
 
 ### **Structure**
 
@@ -228,22 +228,10 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
     + used to check the color contrast.
 + [WAVE Web Accessibility](https://wave.webaim.org/)
     + used to make web content more accessible to individuals with disabilities.
-+ [MDN Web Docs](https://developer.mozilla.org/en-US/)
-    + used for instant help resource for developers, by developers.
-+ [W3School](https://www.w3schools.com/)
-    + used for HTML, CSS and Bootstrap syntax and tutorials.
-+ [Stack Overflow](https://stackoverflow.com/)
-    + used for finding the solution to problem during coding.
 + [Mock-up Image](https://amiresponsive.blogspot.com/)
     + used to create the responsive mock-up image that is at the beginning of the readme file.
 + [Google Dev Tools](https://developer.chrome.com/docs/devtools)
     + used to test features, responsiveness and to troubleshoot.
-+ [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template)
-    + used to generate the workspace for the project.
-+ [Markdown Guide](https://www.markdownguide.org/)
-    + used for Markdown syntax.
-+ [Markdown Tools](https://www.markdowntools.com/)
-    + used for Markdown syntax.
 + [Scrnli Screen recorder and screen capture app](https://chromewebstore.google.com/detail/ijejnggjjphlenbhmjhhgcdpehhacaal?hl=en-US&utm_source=ext_sidebar)
     + used to take screenshots and screen record to use in the Readme file
 
@@ -529,6 +517,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 4. Click 'Save'
 5. A live link will be displayed when published successfully. 
 
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/docs/deployment.png">
+
+</details>
+
 Link to the [**live site**](https://silviyahristova.github.io/handyfix/).
 
 ### Forking the GitHub Repository
@@ -536,6 +530,12 @@ Link to the [**live site**](https://silviyahristova.github.io/handyfix/).
 You can fork the repository by following these steps:
 1. Go to the GitHub repository
 1. Click on Fork button in upper right hand corner
+
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/docs/forking.png">
+
+</details>
 
 ### Cloning the GitHub Repository
 
@@ -549,6 +549,12 @@ You can clone the repository to use locally by following these steps:
 7. Press 'enter' to create the clone
 
 The project will now be cloned locally for you to use.
+
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/docs/cloning.png">
+
+</details>
 
 [Back to top](#table-of-content)
 
@@ -631,9 +637,18 @@ All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepi
 
 ### Tutorials
 
-* [W3School](https://www.w3schools.com/)
-
-* [MDN Web Docs](https://developer.mozilla.org/en-US/)
++ [MDN Web Docs](https://developer.mozilla.org/en-US/)
+    + used for instant help resource for developers, by developers.
++ [W3School](https://www.w3schools.com/)
+    + used for HTML, CSS and Bootstrap syntax and tutorials.
++ [Stack Overflow](https://stackoverflow.com/)
+    + used for finding the solution to problem during coding.
++ [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template)
+    + used to generate the workspace for the project.
++ [Markdown Guide](https://www.markdownguide.org/)
+    + used for Markdown syntax.
++ [Markdown Tools](https://www.markdowntools.com/)
+    + used for Markdown syntax.
 
 [Back to top](#table-of-content)
 
