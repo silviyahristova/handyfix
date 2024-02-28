@@ -180,6 +180,7 @@ a {
     font-size: 2em;
 }
 
+/*Home page*/
 /*About section*/
 
 .heading {
@@ -594,6 +595,7 @@ a {
 }
 
 /*Success page*/
+
 #hero-success{
     opacity: 40%;
 }
@@ -935,7 +937,7 @@ footer {
     }
 }
 
-/*Laptop*/
+/*Desktop*/
 @media screen and (min-width: 991px){
 
     #logoimage {
