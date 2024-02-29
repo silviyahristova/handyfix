@@ -252,7 +252,7 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 |Logo|Click logo|User is brought to the home page|
 |Navbar/home| Click home|User is brought to the home page|
 |Navbar/about|Click about|User is brought to home page section about|
-|Navbar/services/...|Click services,click relevant service link|User is brougth to the choosen service on service page|
+|Navbar/services/...|Click services,click relevant service link|User is brought to the chosen service on service page|
 |Navbar/service/gallery|Click services, click gallery|User is brought to gallery section in service page|
 |Navbar/service/testimonial| Click services, click testimonial|User is brought to testimonial section in home page|
 |Navbar/price|Click price|User is brought to service page section price|
@@ -260,9 +260,9 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 |Our services|Click button our services|User is brought to service page|
 |Get in touch|Click button get in touch|User is brought to contact page|
 |Meet the team images|Move the mouse over the image|User will see personal information about the handyman|
-|Facebook icon|Click icon|New tab is opening and user is brought to Facebook|
-|Twitter icon|Click icon|New tab is opening and user is brought to Twitter|
-|LinkedIn icon|Click icon|New tab is opening and user is brought to LinkedIn|
+|Facebook icon|Click icon|New tab is opening, and user is brought to Facebook|
+|Twitter icon|Click icon|New tab is opening, and user is brought to Twitter|
+|LinkedIn icon|Click icon|New tab is opening, and user is brought to LinkedIn|
 |Contact word in bold|Click word|User is brought to contact page|
 |Electrical service|Click anywhere on the card electrical|User is brought to electrical service on service page|
 |Plumbing service|Click anywhere on the card plumbing|User is brought to plumbing service on service page|
@@ -273,7 +273,7 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 |Windows and blinds|Click anywhere on the card windows and blinds|User is brought to windows and blinds service on service page|
 |Doors|Click anywhere on the card doors|User is brought to doors service on service page|
 |Footer/Logo|Click logo|User is brought to the home page|
-|Instagram icon|Click icon|New tab is opening and user is brought to Instagram|
+|Instagram icon|Click icon|New tab is opening, and user is brought to Instagram|
 |Footer/home|Click home| User is brought to the home page|
 |Footer/about|Click about| User is brought to home page section about|
 |Footer/services|Click services|User is brought to service page|
@@ -292,15 +292,15 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 
 | **Browser tested** | **Intended appearance** | **Intended responsiveness** | 
 |--------------------|-------------------------|-----------------------------|
-| Google Chrome      |<center>Very Good<center>|<center>Very Good<center>    |
-| Mozzila            |<center>Very Good<center>|<center>Very Good<center>    |
-| Firefox            |<center>Very Good<center>|<center>Very Good<center>    |
-| Microsoft edge     |<center>Good<center>     |<center>Good<center>         |
-| Safari*            |<center>Good<center>     |<center>Good<center>         |
+| Google Chrome      |Very Good|Very Good|
+| Mozzila            |Very Good|Very Good|
+| Firefox            |Very Good|Very Good|
+| Microsoft edge     |Good|Good|
+| Safari*            |Good|Good|
 
 * On Microsoft edge hero section taking large amount of space. Does not affect the website.
 * There was issue regarding Safari browser. More details can be found [here](#resolved-bugs).
-* There was no issues found regarding the appearance and responsiveness.
+* There were no issues found regarding the appearance and responsiveness.
 
 [Back to top](#table-of-content)
 
@@ -308,15 +308,15 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 
 | **Device Tested** | **Site responsive** | **Renders as expected** | 
 |-------------------|---------------------|-------------------------|
-| Samsung Galaxy S21 Ultra|<center>Very Good<center>|<center>Yes<center>|
-| Iphone 5s/6s      |<center>Very Good<center>|<center>Yes<center>|
-| Ipad              |<center>Very Good<center>|<center>Yes<center>|
-| Samsung Galaxy Tab 3|<center>Very Good<center>|<center>Yes<center>|
-| Desktop           |<center>Very Good<center>|<center>Yes<center>|
-| Laptop            |<center>Very Good<center>|<center>Yes<center>|
-| Google Dev Tools  |<center>Very Good<center>|<center>Yes<center>|
+| Samsung Galaxy S21 Ultra|Very Good|Yes|
+| Iphone 5s/6s      |Very Good|Yes|
+| Ipad              |Very Good|Yes|
+| Samsung Galaxy Tab 3|Very Good|Yes|
+| Desktop           |Very Good|Yes|
+| Laptop            |Very Good|Yes|
+| Google Dev Tools  |Very Good|Yes|
 
-* There was no issues found regarding the responsiveness.
+* There were no issues found regarding the responsiveness.
 
 [Back to top](#table-of-content)
 
@@ -342,8 +342,8 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 <img src="assets/images/testing/success-desktop-lighthouse.png">, <img src="assets/images/testing/success-mobile-lighthouse.png">
 </details>
 
-*  The site was tested through Google Chrome Dev Tools - Lighthouse to check each of the pages for performance, accessibility, best practices and SEO.
-* On mobile devices the site is loading a bit slower than on large screen devices. This is due to image sizes, longer pages and large layout shifts. At the moment no further action is taken, but improvements will be made in future.
+* The site was tested through Google Chrome Dev Tools - Lighthouse to check each of the pages for performance, accessibility, best practices, and SEO.
+* On mobile devices the site is loading a bit slower than on large screen devices. This is due to image sizes, longer pages, and large layout shifts. Now no further action is taken, but improvements will be made in the future.
 
 [Back to top](#table-of-content)
 
@@ -415,7 +415,7 @@ Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibili
 
 * Solution 
 
-Solution was to remove the loading attribute from video element and to remove control value. Instead was added preload attribute with value none, so the video will not autoplay.
+The solution was to remove the loading attribute from video element and to remove control value. Instead, was added preload attribute with value none, so the video will not autoplay.
 
 <img src="assets/images/testing/service-edit-video.png">
 
@@ -427,7 +427,7 @@ Solution was to remove the loading attribute from video element and to remove co
 
 * Solution 
 
-Solution was to close two elements in the body.
+The solution was to close two elements in the body.
 
 <img src="assets/images/testing/contact-page-resolve-code.png">
 
@@ -469,7 +469,7 @@ First solution was to change p to h4 to the four images of the section. Second s
 
 * Solution
 
-Solution was to change alt text to one image on the page.
+The solution was to change alt text to one image on the page.
 
 <img src="assets/images/testing/wave-service-solution1.png">
 
@@ -485,7 +485,7 @@ Solution was to change alt text to one image on the page.
 
 * Solution
 
-Solution for the contrast was to change the background-color of the hero image. In case if the hero image does not load background-color will show up and it will be in very good contrast with the title color. In the form labels were empty and was missing aria-label to the input attributes. The code was fixed.
+The solution for the contrast was to change the background-color of the hero image. In case if the hero image does not load background-color will show up and it will be in very good contrast with the title color. In the form labels were empty and was missing aria-label to the input attributes. The code was fixed.
 
 <img src="assets/images/testing/wave-contact-contrast.png">
 
@@ -594,7 +594,7 @@ First solution was to change p to h2 to the heading under the h1. Second solutio
 
 </details>
 
-* After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or remove from media queries as appropriate.
+* After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or removed from media queries as appropriate.
 
 <details><summary>Video Gallery</summary>
 
@@ -610,7 +610,7 @@ First solution was to change p to h2 to the heading under the h1. Second solutio
 
 </details>
 
-* After adding the preload attribute to video element,video element on large devices is not large as I want. After research fot autoplay off solution is to remove autoplay attribute at all. Instead I added preload="none" and it affected the video element. After removing the preload and autoplay attributes video element behave as normal (muted, autoplay off and on large screens is appearing on whole row.)
+* After adding the preload attribute to video element,video element on large devices is not large as It should be. After research for autoplay off, solution is to remove autoplay attribute at all. Instead, was added preload="none" and it affected the video element. After removing the preload and autoplay attributes, video element behave as normal (muted, autoplay off and on large screens is appearing on whole row.)
 
 ### Unresolved bugs
 
