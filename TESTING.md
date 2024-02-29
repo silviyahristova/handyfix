@@ -17,7 +17,12 @@
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
+| Why choose our company for your home repair?(About)| Click About on navbar.| User is brought to the information section about the company.|
 | Why choose our company for your home repair?(About)| Scroll down on home page and read information about the company.| User is brought to the information section about the company.|
+
+<img src="assets/images/testing/about-navbar.gif">
+
+<img src="assets/images/testing/navbar-about.gif">
 
 </details>
 
@@ -28,14 +33,22 @@
 | Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
 | Footer| Scroll down to the bottom on any page; find quick links; click on any link.| User is exploring the website.|
 
+<img src="assets/images/testing/navigation-bar.gif">
+
+<img src="assets/images/testing/quick-links-footer.gif">
+
 </details>
 
 <details><summary>As a first-time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-| Navigation bar|Click services; click testimonial| User is brought to testimonial section|
+| Testimonials| Click Services on navbar; click Testimonial.| User is brought to testimonial section.|
 | Testimonials| Click on the logo; scroll down; read testimonials.| User can read feedback about the company.|
+
+<img src="assets/images/testing/testimonial-navbar.gif">
+
+<img src="assets/images/testing/testimonial-scroll.gif">
 
 </details>
 
@@ -45,14 +58,20 @@
 |-------------|---------------|-------------|
 | Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
 
+<img src="assets/images/testing/social-media-links-footer.gif">
+
 </details>
 
 <details><summary>As a first-time visitor, I want to have an insight into the company and where they operate.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-|Home page| Click Home on navbar;scroll down to read information about the company.| User knows where the company is operating.|
+|Why choose our company for your home repair?(About)| Click About on navbar.| User knows where the company is operating.|
 |Footer| Scroll down to the bottom on any page;see contact information.| User can see where the company is operating.|
+
+<img src="assets/images/testing/about-navbar.gif">
+
+<img src="assets/images/testing/contact-information-footer.gif">
 
 </details>
 
@@ -62,7 +81,13 @@
 |-------------|---------------|-------------|
 |Navigation bar|Click Services on navbar;click on any service.|User can see what services are provided.|
 |Our services|Click Home on navbar;scroll down to our services;see what services are provided;click on the service.|User can see what services the company is offering|
-|Service page|Click Home; click our services button;scroll to read about the services.| User can see what services are provided.|
+|Footer| Scroll down to the bottom on any page;click services on quick links.| User is brought to service page and can see what services are provided.|
+
+<img src="assets/images/testing/navbar-services.gif">
+
+<img src="assets/images/testing/our-services.gif">
+
+<img src="assets/images/testing/service-link-footer.gif">
 
 </details>
 
@@ -72,6 +97,8 @@
 |-------------|---------------|-------------|
 |Price|Click Price on navbar;read about the prices.| User is brought to price section.|
 
+<img src="assets/images/testing/navigation-bar.gif">
+
 </details>
 
 <details><summary>As a first-time visitor I want to see what is included in the price.</summary>
@@ -79,6 +106,10 @@
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Price|Click Price on navbar;read about the prices,read the note under price cards.| User can read what is included in the price.|
+
+<img src="assets/images/testing/navigation-bar.gif">
+
+<img src="assets/images/testing/price-section.gif">
 
 </details>
 
@@ -90,14 +121,24 @@
 |Get in touch|Click Contact on navbar;scroll to form;fill and submit the form.| User can get in touch with the company by filling the form.|
 |Footer| Scroll down to the bottom on any page;see contact information.| User can see contact details.|
 
+<img src="assets/images/testing/navbar-contact.gif">
+
+<img src="assets/images/testing/fill-form.gif">
+
+<img src="assets/images/testing/contact-information-footer.gif">
+
 </details>
 
 <details><summary>As a first-time visitor I want to see pictures of their previous project/work.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-|Navigation bar|Click services;click gallery|User is brought to gallery section|
-|Gallery|Click Price on navbar;scroll down; see the gallery| User is brought to gallery section|
+|Gallery|Click Services on navbar;click gallery.|User is brought to gallery section.|
+|Gallery|Click Price on navbar;scroll down; see the gallery.| User is brought to gallery section.|
+
+<img src="assets/images/testing/gallery-navbar.gif">
+
+<img src="assets/images/testing/price-gallery.gif">
 
 </details>
 
@@ -107,6 +148,10 @@
 |-------------|---------------|-------------|
 |Contact page|Click Contact on navbar;scroll down; see the company`s operating hours.| User can see the company`s operating hours.|
 
+<img src="assets/images/testing/navbar-contact.gif">
+
+<img src="assets/images/testing/contact-information-contact.gif">
+
 </details>
 
 <details><summary>As a first-time visitor I want to be able to see and click on the links to their social media pages.</summary>
@@ -114,6 +159,8 @@
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
+
+<img src="assets/images/testing/social-media-links-footer.gif">
 
 </details>
 
@@ -123,6 +170,8 @@
 |-------------|---------------|-------------|
 |Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
 
+<img src="assets/images/testing/navigation-bar.gif">
+
 </details>
 
 <details><summary>As a first-time visitor I want to see where the company is located.</summary>
@@ -131,6 +180,8 @@
 |-------------|---------------|-------------|
 |Get in touch|Click Contact on navbar;scroll to map;see adress on the map.| User can see where the company is located.|
 
+<img src="assets/images/testing/adress-map.gif">
+
 </details>
 
 <details><summary>As an owner, I want to generate new business by getting users to contact the company.</summary>
@@ -138,6 +189,14 @@
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
 |Get in touch|Click Contact on navbar;scroll to form;fill and submit the form.| User can get in touch with the company by filling the form.|
+|Contact page|Click Contact on navbar;scroll down; see the company contact information.| User can see contact details.|
+|Footer| Scroll down to the bottom on any page;see contact information.| User can see contact details.|
+
+<img src="assets/images/testing/navbar-contact.gif">
+
+<img src="assets/images/testing/fill-form.gif">
+
+<img src="assets/images/testing/contact-information-footer.gif">
 
 </details>
 
@@ -147,13 +206,20 @@
 |-------------|---------------|-------------|
 |Navigation bar| On top of each page there is a navigation bar; click on any link.| User is exploring the website.|
 
+<img src="assets/images/testing/navigation-bar.gif">
+
 </details>
 
 <details><summary>As owner, I want the site to show the motto of "quality over quantity" in terms of the information that is on display.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-|Gallery|Click Price on navbar;scroll down; see the gallery| User is brought to gallery section|
+|Gallery|Click Services on navbar;click gallery.|User is brought to gallery section.|
+|Gallery|Click Price on navbar;scroll down; see the gallery.| User is brought to gallery section.|
+
+<img src="assets/images/testing/gallery-navbar.gif">
+
+<img src="assets/images/testing/price-gallery.gif">
 
 </details>
 
@@ -163,13 +229,17 @@
 |-------------|---------------|-------------|
 |Footer| Scroll down to the bottom on any page;click social media icon.| User is brought to social media links.|
 
+<img src="assets/images/testing/social-media-links-footer.gif">
+
 </details>
 
 <details><summary>As owner, I want the site to be responsive so users on any platform can successfully navigate the site.</summary>
 
 | **Feature** | **Test case** | **Outcome** |
 |-------------|---------------|-------------|
-|Website| Website is tested on different devices and browsers.|User can explore the website on any device.|
+|Website| Website is tested on different devices and browsers.|User can explore the website on any device and browser.|
+
+Please refer to [**Responsiveness**](#responsiveness) and [**Browser compatibility**](#browser-compatibility) for more information.
 
 </details>
 
@@ -183,6 +253,8 @@
 |Navbar/home| Click home|User is brought to the home page|
 |Navbar/about|Click about|User is brought to home page section about|
 |Navbar/services/...|Click services,click relevant service link|User is brougth to the choosen service on service page|
+|Navbar/service/gallery|Click services, click gallery|User is brought to gallery section in service page|
+|Navbar/service/testimonial| Click services, click testimonial|User is brought to testimonial section in home page|
 |Navbar/price|Click price|User is brought to service page section price|
 |Navbar/contacts|Click contacts|User is brought to contact page|
 |Our services|Click button our services|User is brought to service page|
@@ -210,7 +282,7 @@
 |Back to top button|Click button|User is brought to top of the service page|
 |Contact form|Submit an empty form|Error signalling required fields|
 |Contact form|Submit filled form|User is brought to success page|
-|Back to our home page|click button|User is brought to the home page|
+|Back to our home page|Click button|User is brought to the home page|
 
 </details>
 
@@ -523,6 +595,22 @@ First solution was to change p to h2 to the heading under the h1. Second solutio
 </details>
 
 * After html validation on the contact page, the bug with open tags was fixed. After that the title position changed. It was fixed by changing top property in a class cover-text-contact. It was changed or remove from media queries as appropriate.
+
+<details><summary>Video Gallery</summary>
+
+<img src="assets/images/testing/gallery-preload.png">
+
+* Solution
+
+<img src="assets/images/testing/video-solution.png">
+
+* Final result
+
+<img src="assets/images/testing/gallery-remove-preload.png">
+
+</details>
+
+* After adding the preload attribute to video element,video element on large devices is not large as I want. After research fot autoplay off solution is to remove autoplay attribute at all. Instead I added preload="none" and it affected the video element. After removing the preload and autoplay attributes video element behave as normal (muted, autoplay off and on large screens is appearing on whole row.)
 
 ### Unresolved bugs
 
