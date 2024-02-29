@@ -83,11 +83,11 @@ Click [**here**](https://silviyahristova.github.io/handyfix/) to view the live w
 
 - As an owner, I want users to easily navigate through the site and at the end be confident enough to contact the company.
 
-- As owner, I want the site to show the motto of "quality over quantity" in terms of the information that is on display.
+- As an owner, I want the site to show the motto of "quality over quantity" in terms of the information that is on display.
 
-- As owner, I want to encourage users to go to our social media pages which will help boost the profile of the company.
+- As an owner, I want to encourage users to go to our social media pages which will help boost the profile of the company.
 
-- As owner, I want the site to be responsive so users on any platform can successfully navigate the site.
+- As an owner, I want the site to be responsive so users on any platform can successfully navigate the site.
 
 ### **Strategy**
 
@@ -101,7 +101,7 @@ By making the site fully responsive, the site aims to be easily accessible no ma
 
 The main features that will be implemented into the website will be included on four separate pages. The design of the website should look professional and trustworthy at the same time simple and eye-catching. In help to create this design will be carefully selected color palette and fonts.
 
-The site will have an "About section" where users can learn some more information about the company. This will help build more trust in users. It will provide contact details, making it easy for users to get in touch. It will showcase previous work through photos, testimonials, and a video. This will help users gauge the handyman`s skill and quality of work. Users can find out if the handymen serves their geographical area, ensuring that they are accessible to potential customers. The website will show pricing information. This transparency can help users budget for their home improvement projects.
+The site will have an "About section" where users can learn some more information about the company. This will help build more trust in users. It will provide contact details, making it easy for users to get in touch. It will showcase previous work through photos, testimonials, and a video. This will help users gauge the handyman`s skill and quality of work. Users can find out if the handymen serve their geographical area, ensuring that they are accessible to potential customers. The website will show pricing information. This transparency can help users budget for their home improvement projects.
 
 ### **Structure**
 
@@ -113,11 +113,11 @@ The service page will be made up of five sections- header with logo and navigati
 
 The contact page will be made up of three sections. There will be a header section with a navigation bar and logo; contact information which will include phone number, email address, office opening hours, get in touch form that can be filled and submitted by users, map- so that can users see where the company office is based; and footer with contact information and quick links.
 
-The success page will be made of three sections. There will be a header section with a navigation bar and logo, section with a message that will show users that they successfully complete the form, and footer with contact information and quick links.
+The success page will be made of three sections. There will be a header section with a navigation bar and logo, section with a message that will show users that they successfully complete the form, and a footer with contact information and quick links.
 
 ### **Skeleton**
 
-To create the wireframes, the design tool Figma is used. There were nine frames created- for the tree main pages and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
+To create the wireframes, the design tool Figma is used. There were nine frames created- for the three main pages and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
 
 <details>
 
@@ -146,7 +146,7 @@ To create the wireframes, the design tool Figma is used. There were nine frames 
 
 **Colour**
 
-The color palette is selected based on the unique meaning of each colors and their combination together. Orange color is associated with energy,warmth and enthusiasm.It is symbolized passion as well as quality, confidence and success. Also evoke feelings of excitement and optimism. It`s the color for creativity and innovation. Light beige is neutral color associated with simplicity, calmness and elegance. Beige symbolizes work and promotes hard work. Dark grayish-brown color gives stability and seriousness, which adds elegance to the color palette. The color symbolized intellect and stability.
+The color palette is selected based on the unique meaning of each colors and their combination together. Orange color is associated with energy,warmth and enthusiasm.It symbolizes passion as well as quality, confidence and success. Also evokes feelings of excitement and optimism. It`s the color for creativity and innovation. Light beige is a neutral color associated with simplicity, calmness and elegance. Beige symbolizes work and promotes hard work. Dark grayish-brown color gives stability and seriousness, which adds elegance to the color palette. The color symbolized intellect and stability.
 
 The color combination of orange shade and a light beige shade can work together, especially if aiming for a warm and inviting color scheme. The orange provides a vibrant pop of color, while the light beige offers a soft and neutral backdrop. Together they are creating balances and harmonious color palette that feels welcoming and cheerful. Light beige and dark grayish-brown create balance due to the contrast between them. The combination between orange and dark grayish-brown create an attention-grabbing contrast. The palette were created using the site [Color-hex.com](https://www.color-hex.com/). Tints and Shades of these colours will be used also and are created using the site [Maketintsandshade.com](https://maketintsandshades.com/).
 
@@ -159,11 +159,11 @@ The color combination of orange shade and a light beige shade can work together,
 
 **Typography**
 
-The fonts that will be used in the website will be imported from [Google Fonts](https://fonts.google.com/) and will be used [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lato](https://fonts.google.com/specimen/Lato?query=lato). Roboto has clean and simple design which pairs well with Lato`s versatility and legibility. Together they are creating a sleek and minimalist look that is ideal for modern website. Both are sans-serif fonts that share similar characteristics in terms of letterforms and proportions in their modern desing. Lato has a slightly rounder and friendly appearance, while Roboto has a more geometric and modern feel. These differences create visual hierarchy and contrast in typography. Roboto will be used for the logo and headings in each section, while Lato will be used for the main body text.
+The fonts that will be used in the website will be imported from [Google Fonts](https://fonts.google.com/) and will be used [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) and [Lato](https://fonts.google.com/specimen/Lato?query=lato). Roboto has a clean and simple design which pairs well with Lato`s versatility and legibility. Together they are creating a sleek and minimalist look that is ideal for modern website. Both are sans-serif fonts that share similar characteristics in terms of letterforms and proportions in their modern design. Lato has a slightly rounder and friendly appearance, while Roboto has a more geometric and modern feel. These differences create visual hierarchy and contrast in typography. Roboto will be used for the logo and headings in each section, while Lato will be used for the main body text.
 
 **Logo**
 
-The logo is created using Figma design tool. The colors are choosen from the palette for the website. This will help users connect the logo with the colors of the company and website. Th symbol is related to the purpose of the website.
+The logo is created using Figma design tool. The colors are chosen from the palette for the website. This will help users connect the logo with the colors of the company and website. Th symbol is related to the purpose of the website.
 
 <details><summary>Logo images</summary>
 
@@ -173,7 +173,7 @@ The logo is created using Figma design tool. The colors are choosen from the pal
 
 **Images**
 
-The images on the pages were chosen to be relevant to the content of the page. All of them are regarding home repair services, handymen team and images of their previous work. The video has been selected to give the user a more in depth vision of what work quality the company is providing.
+The images on the pages were chosen to be relevant to the content of the page. All of them are regarding home repair services, handymen team and images of their previous work. The video has been selected to give the user a more in-depth vision of what work quality the company is providing.
 
 **Icons**
 
@@ -199,7 +199,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 + [GitHub](https://github.com/)
     + used as a repository and to host the full project.
 + [GitPod](https://www.gitpod.io/)
-    + used IDE to develop the a whole site.
+    + used IDE to develop the website.
 + [Figma](https://www.figma.com/)
     + used to create the wireframes and design layout for the project.
 + [Canva](https://www.canva.com/)
@@ -221,7 +221,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 + [Make Tints and Shades](https://maketintsandshades.com/)
     + used to create the tints and shades from the main colour palette for use on the whole site.
 + [Grammarly](https://app.grammarly.com/)
-    + used to check spelling, grammar and punctuation in the content of the website.
+    + used to check spelling, grammar, and punctuation in the content of the website.
 + [Responsive Image Linter](https://chromewebstore.google.com/detail/responsive-image-linter/mnddginionlghpblkimpdalcecpnbjln?pli=1)
     + used to test responsive images and provide suggestions for the sizes attribute.
 + [WebAIM](https://webaim.org/resources/contrastchecker/)
@@ -262,7 +262,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 </details>
 
-* Navbar appears on all pages and it is fully responsive. It contains the logo and the name of the brand, which links to the homepage. On tablet screens and smaller only logo appears and a menu toggle icon. Navbar also has links to all main pages and section on the website. The active page, that the user is on, is highlighted. There is a hover effect on the nav links. The service link has a dropdown menu and the users can navigate easily to the service they are looking for.
+* Navbar appears on all pages and it is fully responsive. It contains the logo and the name of the brand, which links to the homepage. On tablet screens and smaller only the logo appears and a menu toggle icon. Navbar also has links to all main pages and sections on the website. The active page, that the user is on, is highlighted. There is a hover effect on the nav links. The service link has a dropdown menu and the users can navigate easily to the service they are looking for.
 
 ### **Hero**
 
@@ -291,7 +291,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/contact-hero-animation.gif">
 </details>
 
-* Each page features a hero image with the title of the page as a text header. All hero images, text and buttons are responsive. On the home page and contact page title is animated to capture the user attention and to call-to-action. Home hero title has two links also to call-to-action and to encourage users to click on any of them.
+* Each page features a hero image with the title of the page as a text header. All hero images, text and buttons are responsive. The home page and contact page title are animated to capture the user`s attention and to call-to-action. The home hero title has two links also to call-to-action and to encourage users to click on any of them.
 
 ### **Footer**
 
@@ -306,7 +306,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/footer-mobile.jpg" width=300px>
 </details>
 
-* The footer appears on all pages and is fully responsive. It contains the logo and the brand name. It has a contact information such as phone number, email and where the business is operating with easy to understand icons. Also has navigation links for better user experience. The footer contains links to social media pages, all of which open in a separate tab and a copyright statement for the website.
+* The footer appears on all pages and is fully responsive. It contains the logo and the brand name. It has a contact information such as phone number, email and where the business is operating with easy-to-understand icons. Also has navigation links for better user experience. The footer contains links to social media pages, all of which open in a separate tab and a copyright statement for the website.
 
 ### **Buttons and Links**
 
@@ -325,7 +325,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/quick-links-footer.png">, <img src="assets/images/docs/link-over-image.png">, <img src="assets/images/docs/link-service.png">
 </details>
 
-* The submit button has a hover effect. When clicked sending user to success page. All the links that looks like a button has a hover effect. They navigate user throught the site. The logo and the brand name are clickable and links to the home page. All social media links on the images and footer are opening in a separate tab. The service links on the home page are linked to different section on the service page.
+* The submit button has a hover effect. When clicked send the user to the success page. All the links that look like a button have a hover effect. They navigate users through the site. The logo and the brand name are clickable and link to the home page. All social media links on the images and footer are open in a separate tab. The service links on the home page are linked to different sections on the service page.
 
 ### **Favicon**
 
@@ -361,7 +361,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/image-hover-overlay.gif">
 </details>
 
-* The about us section is named "Why choose our company for your home repairs?" and contains simple layout which features the section header, a few paragraphs of text,icons with key factor about the company and Meet our expert team section. The information in the section is about the company - who are they,what to expect and what is their mission. Meet our expect team section contains 4 images of the handyman team. When click or hover on them overlay is showing up. The text over the images contain information about each handyman - name, position, and social media links.The section is fully responsive. On smaller screens team images and icons are stacking into a single column.
+* The about us section is named "Why choose our company for your home repairs?" and contains a simple layout that features the section header, a few paragraphs of text,icons with key factor about the company and Meet our expert team section. The information in the section is about the company - who are they,what to expect and what is their mission. Meet our expect team section contains 4 images of the handyman team. When click or hover on them overlay is showing up. The text over the images contain information about each handyman - name, position, and social media links.The section is fully responsive. On smaller screens team images and icons are stacking into a single column.
 
 ### **Our Services**
 
@@ -380,7 +380,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/ourservice-hover-effect.gif">
 </details>
 
-* Our service section is fully responsive and contains header, paragraph of text, and eight links about provided services. The links looks like a cards with hover effect when hover on them. They have identifying icons to help users with visual representation, short text which gives the users enough understanding what the service is about and call to action text "read more". The links are clickable and when clicked they will allow users to gain more information by navigating straight to the same section in service page. On the tablet screen and smaller the short text is nor appearing, but icons and the name of the service are enough recognizable for users to understand what service is provided. By clicking on the link they will gain more information from the service page. The section is responsive, stacking in to a single column on smaller screens.
+* Our service section is fully responsive and contains a header, a paragraph of text, and eight links about provided services. The links look like a cards with a hover effect when hovering on them. They have identifying icons to help users with visual representation, short text that gives the users enough understanding what the service is about and call to action text "read more". The links are clickable and when clicked they will allow users to gain more information by navigating straight to the same section onn the service page. On the tablet screen and smaller the short text does not appear, but icons and the name of the service are enough recognizable for users to understand what service is provided. By clicking on the link, they will gain more information from the service page. The section is responsive, stacking in to a single column on smaller screens.
 
 ### **Testimonials**
 
@@ -412,7 +412,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/service-mobile.jpg">, 
 </details>
 
-* The section contain information about each of 8th services with appropriate image. The information is in detailabout the service, what is including and what to expect. The section is fully responsive, and it is stacking into a single column with text and image under the text. On larger screen the text and images are alternating once on left side, then on right side and so on. The section is quite long and the end of the section has a back-to-top link like a button, which sends users at the top of the page where is the navbar. 
+* The section contains information about each of the eight services with appropriate images. The information is in detail about the service, what is included, and what to expect. The section is fully responsive, and it is stacked into a single column with text and image under the text. On a larger screen the text and images are alternating once on the left side, then on the right side and so on. The section is quite long, and the end of the section has a back-to-top link like a button, which sends users at the top of the page where is the navbar. 
 
 ### **Our prices**
 
@@ -442,7 +442,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/gallery-mobile.jpg" width=300px>
 </details>
 
-* The gallery section features eight images that are responsive. They have been carefully selected. The images and the video in this section helping users by giving them a positive feelings about the company and trust, that the handymen are experienced and can provide very good work.
+* The gallery section features eight images that are responsive. They have been carefully selected. The images and the video in this section helping users by giving them a positive feeling about the company and trust, that the handymen are experienced and can provide very good work.
 
 ### Contact page
 
@@ -459,7 +459,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 <img src="assets/images/docs/contact-details-mobile.jpg" width=300px>
 </details>
 
-* Contact us section is fully responsive and contains header, paragraph of text, and essential information about the company`s working hours, phone number and email adress, with appopriate icons for visual effect. The section is stacking in a single column on a smaller devices.
+* Contact us section is fully responsive and contains header, paragraph of text, and essential information about the company`s working hours, phone number and email address, with appropriate icons for visual effect. The section is stacking in a single column on a smaller device.
 
 ### **Get in touch**
 
@@ -479,7 +479,7 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 </details>
 
-* The features within this section are a form that includes name, email address, message and submit button, as well as a map which providing company`s full adress. Both form and map are side by side and are fully responsive in that the map will be underneath the form on smaller screen sizes.The user will use this section to contact company about any of the services, general enquiries or quotations. They will need to fill out the form in full and then submit. This will then lead them to the success page. The users are required to fill in all section in the form to be able to successfully submit the form.
+* The features within this section are a form that includes name, email address, message and submit button, as well as a map which providing company`s full address. Both form and map are side by side and are fully responsive in that the map will be underneath the form on smaller screen sizes.The user will use this section to contact company about any of the services, general enquiries or quotations. They will need to fill out the form in full and then submit. This will then lead them to the success page. The users are required to fill in all section in the form to be able to successfully submit the form.
 
 [Back to top](#table-of-content)
 
@@ -495,11 +495,11 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
 
 * To create separate pages for each service, providing more information and images.
 
-* To embed Trustpilot service review for real business and add an option to customer to leave a review using the HandyFix website.
+* To embed Trustpilot service review for real business and add an option for customers to leave a review using the HandyFix website.
 
-* To have online booking system and customer can book a handyman and service online.
+* To have an online booking system and customer can book a handyman and service online.
 
-* To have registration form Sign-up/Login, so customer can create account.
+* To have a registration form Sign-up/Login, so customer can create an account.
 
 * To make the contact form fully functional with a post request and have a database to collate data for the mailing list.
 
@@ -620,7 +620,7 @@ All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepi
 
 ### Code
 
-* [Bootstrap 5](https://getbootstrap.com/): Boostrap library used throughout the project for layout and responsiveness using the Bootstrap Grid System. Also used for Navbar and dropdown menu in the Navbar, and in Price section for price cards.
+* [Bootstrap 5](https://getbootstrap.com/): Bootstrap library used throughout the project for layout and responsiveness using the Bootstrap Grid System. Also used for Navbar and dropdown menu in the Navbar, and in Price section for price cards.
 
 * [Favicon.io](https://favicon.io/): Used to create the site Favicon and provided the code in the head of all pages.
 
@@ -636,7 +636,7 @@ All images have been downloaded from: [Pexels](https://www.pexels.com/), [Freepi
 
 * [CSS Animations](https://www.w3schools.com/css/css3_animations.asp): Tutorial used to learn how to create animation.
 
-* [How to embed a video in Markdown](https://blog.markdowntools.com/posts/how-to-embed-a-video-in-markdown): Tutorial used to learn how to embed video in markown.
+* [How to embed a video in Markdown](https://blog.markdowntools.com/posts/how-to-embed-a-video-in-markdown): Tutorial used to learn how to embed video in markdown.
 
 ### Tutorials
 
