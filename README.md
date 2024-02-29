@@ -119,27 +119,28 @@ The success page will be made of three sections. There will be a header section 
 
 To create the wireframes, the design tool Figma is used. There were nine frames created- for the three main pages and for three devices- desktop, tablet, and mobile. They were created to help establish a clear and organized structure for the website. They provide an outline of the layout how elements will be arranged on the screen, and how the interface will adopt the different screen sizes and devices, laying the foundation for responsive design.
 
-<details>
+<details><summary>Desktop</summary>
 
-<summary>Desktop</summary>
+<img src="assets/images/docs/desktop1.webp" width=250px>
+<img src="assets/images/docs/desktop2.webp" width=250px>
+<img src="assets/images/docs/desktop3.webp" width=250px>
 
-![desktop1](assets/images/docs/desktop1.webp)
-![desktop2](assets/images/docs/desktop2.webp)
-![desktop3](assets/images/docs/desktop3.webp)
 </details>
 
 <details><summary>Tablet</summary>
 
-![tablet1](assets/images/docs/tablet1.webp)
-![tablet2](assets/images/docs/tablet2.webp)
-![tablet3](assets/images/docs/tablet3.webp)
+<img src="assets/images/docs/tablet1.webp" width=250px>
+<img src="assets/images/docs/tablet2.webp" width=250px>
+<img src="assets/images/docs/tablet3.webp" width=250px>
+
 </details>
 
 <details><summary>Mobile</summary>
 
-![mobile1](assets/images/docs/mobile1.webp)
-![mobile2](assets/images/docs/mobile2.webp)
-![mobile3](assets/images/docs/mobile3.webp)
+<img src="assets/images/docs/mobile1.webp" width=250px>
+<img src="assets/images/docs/mobile2.webp" width=250px>
+<img src="assets/images/docs/mobile3.webp" width=250px>
+
 </details>
 
 ### **Surface**
