@@ -232,8 +232,11 @@ The icons that will be used are from [Font Awesome](https://fontawesome.com/) we
     + used to create the responsive mock-up image that is at the beginning of the readme file.
 + [Google Dev Tools](https://developer.chrome.com/docs/devtools)
     + used to test features, responsiveness and to troubleshoot.
-+ [Scrnli Screen recorder and screen capture app](https://chromewebstore.google.com/detail/ijejnggjjphlenbhmjhhgcdpehhacaal?hl=en-US&utm_source=ext_sidebar)
-    + used to take screenshots and screen record to use in the Readme file
++ [Chrome Capture - screenshot & gif tool](https://chromewebstore.google.com/detail/chrome-capture-screenshot/ggaabchcecdbomdcnbahdfddfikjmphe?hl=en-US&utm_source=ext_sidebar)
+    + used to take screenshots and screen record to use in the Readme file.
++ [GIF Compressor](https://www.freeconvert.com/gif-compressor)
+    + used to compress gif files to use in the Readme file.
+
 
 [Back to top](#table-of-content)
 
