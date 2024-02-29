@@ -13,7 +13,7 @@ body{
     font-size: 100%;
 }
 
-/*Header*/
+/*-----------------------------------------------------------Header*/
 
 header {
     background-color: #f79a36;
@@ -96,7 +96,7 @@ nav {
     float: none;
 }
 
-/*Styling hero section*/
+/*-----------------------------------------------------------Styling hero section*/
 
 .hero {
     position: relative;
@@ -162,7 +162,7 @@ a {
     border: 1px solid #262121;
 }
 
-/*Hero service page*/
+/*-----------------------------------------------------------Hero service page*/
 
 #service {
     margin-bottom: 40px;
@@ -180,8 +180,8 @@ a {
     font-size: 2em;
 }
 
-/*Home page*/
-/*About section*/
+/*-----------------------------------------------------------Home page*/
+/*-----------------------------------------------------------About section*/
 
 .heading {
     margin: 15px;
@@ -315,7 +315,7 @@ div#icons {
     margin: 15px;
 }
 
-/*Our services section*/
+/*-----------------------------------------------------------Our services section*/
 
 .heading-service {
     background-color: #faf9fa;
@@ -370,7 +370,7 @@ h3 {
     font-weight: 700;
 }
 
-/*Testimonial section*/
+/*-----------------------------------------------------------Testimonial section*/
 
 .review-image {
     border-radius: 10%;
@@ -418,8 +418,8 @@ h3 {
     margin: 0px;
 }
 
-/*Service page*/
-/*Service description*/
+/*-----------------------------------------------------------Service page*/
+/*-----------------------------------------------------------Service description*/
 
 .image-next-text {
     display: flex;
@@ -452,7 +452,7 @@ h3 {
     width: 100%;
 }
 
-/*Price section*/
+/*-----------------------------------------------------------Price section*/
 
 #price {
     background-color: #e9e9e9;
@@ -485,7 +485,7 @@ h3 {
     background-color: #e9e9e9;
  }
 
- /*Gallery*/
+ /*-----------------------------------------------------------Gallery*/
 
  #gallery {
     background-color: #fce6ce;
@@ -507,7 +507,7 @@ video {
     max-width: 100%;
 }
 
-/*Contact page*/
+/*-----------------------------------------------------------Contact page*/
 
 .cover-text-contact {
     position: absolute;
@@ -594,7 +594,7 @@ a {
     position: absolute;
 }
 
-/*Success page*/
+/*-----------------------------------------------------------Success page*/
 
 #hero-success{
     opacity: 40%;
@@ -617,7 +617,7 @@ a {
     margin: 0;
 }
 
-/*Footer*/
+/*-----------------------------------------------------------Footer*/
 
 footer {
     width: 100%;
@@ -700,7 +700,7 @@ footer {
     color: #262121;
 }
 
-/*Animation*/
+/*-----------------------------------------------------------Animation*/
 
 .animation-slide-left{
     animation-name: slide-left;
@@ -737,7 +737,7 @@ footer {
     }
 }
 
-/*Media Queries*/
+/*-----------------------------------------------------------Media Queries*/
 
 @media screen and (max-width:320px) {
 
@@ -747,7 +747,7 @@ footer {
     }
 }
 
-/*Mobile device*/
+/*-----------------------------------------------------------Mobile device*/
 @media screen and (min-width: 321px) {
 
     .cover-text {
@@ -824,7 +824,7 @@ footer {
     }
 }
 
-/*Tablet*/
+/*-----------------------------------------------------------Tablet*/
 @media screen and (min-width: 767px) {
     
     #logo {
@@ -937,7 +937,7 @@ footer {
     }
 }
 
-/*Desktop*/
+/*-----------------------------------------------------------Desktop*/
 @media screen and (min-width: 991px){
 
     #logoimage {
